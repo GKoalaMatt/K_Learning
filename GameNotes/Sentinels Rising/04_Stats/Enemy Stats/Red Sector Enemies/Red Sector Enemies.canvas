@@ -4,7 +4,7 @@
 		{"type":"file","file":"Sentinels Rising/98_Files/Characters/Enemies/Red Sector/Example_Mantis.png","id":"b87595a8165f6270","x":240,"y":-340,"width":306,"height":500},
 		{"type":"file","file":"Sentinels Rising/98_Files/Characters/Enemies/Red Sector/Example_Mantis2.png","id":"4148a305dbddbf34","x":560,"y":-340,"width":306,"height":500},
 		{"type":"text","text":"*Add Image*","id":"7ee51e5ae428d157","x":95,"y":-500,"width":250,"height":110},
-		{"id":"3bac8bfcbc8ceecc","x":240,"y":260,"width":400,"height":389,"type":"file","file":"Sentinels Rising/98_Files/Characters/Enemies/Example_Enemy.png"}
+		{"type":"file","file":"Sentinels Rising/98_Files/Characters/Enemies/Red Sector/Example_Enemy12.png","id":"3bac8bfcbc8ceecc","x":240,"y":260,"width":400,"height":389}
 	],
 	"edges":[]
 }
