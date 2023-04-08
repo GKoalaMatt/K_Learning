@@ -1,0 +1,8 @@
+ - [ ] World Theme (General Aesthetic)
+ - [ ] World Feel (is it clean, dirty, *just* broken, "product of improvisation", etc.)
+ - [ ] Shape language (Sharp, curved, geometric/patterns)
+ - [ ] Color pallet of the worlds
+ - [ ] Monuments, Technology, Commerce, Leadership, etc.
+ - [ ] Natural features, climate events, foliage, Animals/wildlife(?)
+ - [ ] Outposts, Military (enemies/opposition), Movements and reasons for going to different places
+ - [ ] Landing Zones (Tyler said that the worlds will have designated landing zones, at least a number of how many landing zones each world has, etc.)

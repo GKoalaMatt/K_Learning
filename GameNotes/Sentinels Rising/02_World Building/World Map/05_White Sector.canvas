@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"type":"file","file":"Sentinels Rising/98_Files/Map Images/SR_Map_WhiteSector.png","id":"e5b8bccfac4ec09e","x":-180,"y":-160,"width":400,"height":338},
+		{"id":"0102b2df43ed726c","x":240,"y":-191,"width":160,"height":691,"type":"file","file":"Sentinels Rising/98_Files/Map Images/SR_Map_WhiteSector_Info.png"}
+	],
+	"edges":[]
+}

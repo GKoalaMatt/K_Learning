@@ -1,0 +1,1 @@
+Some attacks the enemies have will be unblockable. The player will not be able to defend or counter these attacks. The player will be able to identify if the attack is unblockable when there is an unpleasant chitter sound and a niagra effect of blurring or the “Spiritual Pressure” as portrayed in the anime Bleach.

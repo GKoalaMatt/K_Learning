@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"type":"file","file":"Sentinels Rising/98_Files/Weapons/Ranged/SR_Weapons_Ranged.png","id":"207d0be4de231de5","x":-220,"y":-300,"width":399,"height":95},
+		{"type":"file","file":"Sentinels Rising/98_Files/Weapons/Ranged/SR_Weapons_Table_Ranged.png","id":"feab2736a475949d","x":-220,"y":-180,"width":400,"height":208}
+	],
+	"edges":[]
+}

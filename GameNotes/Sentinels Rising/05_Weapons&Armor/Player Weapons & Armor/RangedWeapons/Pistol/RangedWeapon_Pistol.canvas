@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"type":"group","id":"c4c34d2e422303da","x":-400,"y":140,"width":1240,"height":480,"label":"ExampleWeapon_Ranged"},
+		{"type":"file","file":"Sentinels Rising/98_Files/Stats/Weapons/SR_Stats_RangedWeaponStats_Pistol.png","id":"9c3bd9a62b9cd1d9","x":20,"y":-60,"width":623,"height":160},
+		{"type":"file","file":"Sentinels Rising/05_Weapons&Armor/Player Weapons & Armor/RangedWeapons/Pistol/Pistol.md","id":"1d2b6cf3d2f0c2c1","x":-420,"y":-500,"width":1063,"height":400},
+		{"type":"text","text":"","id":"8bd8939b357f7d79","x":-380,"y":160,"width":1200,"height":440},
+		{"type":"file","file":"Sentinels Rising/05_Weapons&Armor/Player Weapons & Armor/RangedWeapons/AssaultRifle/ExampleWeapon_Ranged.md","id":"d07b7aab8385a4e0","x":-360,"y":200,"width":520,"height":380},
+		{"type":"file","file":"Sentinels Rising/98_Files/Weapons/Ranged/ExampleWeapon_Temporary_NotPermanent.png","id":"f1b736e713b46594","x":180,"y":200,"width":399,"height":185},
+		{"type":"file","file":"Sentinels Rising/98_Files/Stats/Weapons/SR_Stats_RangedWeaponStats_Pistol.png","id":"7390daa7d7144191","x":177,"y":420,"width":623,"height":160}
+	],
+	"edges":[]
+}

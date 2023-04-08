@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"type":"file","file":"Sentinels Rising/98_Files/Armor/Gear/SR_Armor_Gear.png","id":"ecd2bbd83dae56e3","x":-200,"y":-167,"width":400,"height":102},
+		{"type":"file","file":"Sentinels Rising/98_Files/Armor/Accessories/SR_Armor_Accessories.png","id":"c339fc577812e069","x":-200,"y":-27,"width":400,"height":194}
+	],
+	"edges":[]
+}

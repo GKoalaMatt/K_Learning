@@ -1,0 +1,5 @@
+The glowing creatures are large, insect-like creatures that resemble praying mantises. They have long, spindly legs and a large, glowing abdomen that pulsates with an eerie light. The creatures emit a strange biowaste that creates the "dead zones" around the domes. This biowaste is highly toxic to most creatures and quickly dissolves into the surrounding environment, providing sustenance to the unique flora and fauna of the wasteland.
+
+Despite their deadly waste, these creatures are revered by the indigenous creatures of the wasteland. They believe that the glowing creatures are sacred beings that must be protected at all costs, and will fiercely defend the domes from any threats.
+
+These mysterious creatures play a critical role in the ecosystem of the wasteland, providing the life-sustaining biowaste that makes it possible for the unique flora and fauna to survive in the harsh and hostile environment. The domes serve as a sort of sanctuary for these creatures, protecting them from predators and allowing them to thrive in the otherwise inhospitable wasteland.

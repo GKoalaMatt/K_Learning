@@ -1,0 +1,8 @@
+-   The player will start to hallucinate and believe they are talking with B.
+-   A will interject every now and then, getting on M’s nerves.
+-   M eventually snaps and gets really angry with A “Your the reason why B died in the first place”
+-   Return to Nexus, everyone starts asking M invasive questions.
+-   M shuts everyone out.
+-   M has another couple moments with hallucinations
+-   M finds out that A could have saved B but decided not too.
+-   M is angry with A

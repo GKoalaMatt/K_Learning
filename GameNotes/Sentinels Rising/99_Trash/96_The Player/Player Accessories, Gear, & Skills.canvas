@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"type":"file","file":"Sentinels Rising/98_Files/Armor/Gear/SR_Armor_Gear.png","id":"8eab0d6463826722","x":-180,"y":-160,"width":400,"height":102},
+		{"type":"file","file":"Sentinels Rising/98_Files/Armor/Accessories/SR_Armor_Accessories.png","id":"75cf78cb4598706d","x":-180,"y":-20,"width":400,"height":194},
+		{"type":"file","file":"Sentinels Rising/98_Files/Abilities, Skills, & Talents/SR_AST_Skills.png","id":"d9a74a4fe0110a72","x":-180,"y":200,"width":399,"height":90},
+		{"type":"file","file":"Sentinels Rising/98_Files/Abilities, Skills, & Talents/SR_AST_Talents.png","id":"ac43f339a823b3c2","x":-180,"y":320,"width":400,"height":773},
+		{"type":"file","file":"Sentinels Rising/98_Files/Hit Effects/SR_HitEffects.png","id":"5a8bf0d09f7f67d6","x":-180,"y":1120,"width":399,"height":295}
+	],
+	"edges":[]
+}

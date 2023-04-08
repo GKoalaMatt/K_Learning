@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"type":"file","file":"Sentinels Rising/98_Files/Armor/Gear/SR_Armor_Gear.png","id":"9008962388cc96fe","x":-200,"y":-167,"width":400,"height":102},
+		{"type":"file","file":"Sentinels Rising/98_Files/Armor/Accessories/SR_Armor_Accessories.png","id":"6e9bd07846f6687d","x":-200,"y":-27,"width":400,"height":194},
+		{"type":"file","file":"Sentinels Rising/98_Files/Stats/Weapons/SR_Stats_MeleeWeaponStats.png","id":"bb55fd049e3955aa","x":260,"y":-167,"width":520,"height":547},
+		{"type":"file","file":"Sentinels Rising/98_Files/Stats/Weapons/SR_Stats_RangedWeaponStats.png","id":"cc58fcc03af832fa","x":260,"y":400,"width":520,"height":482}
+	],
+	"edges":[]
+}

@@ -1,0 +1,5 @@
+-  Player goes through another handful of missions and eventually has taken out all generals in the last sector.
+-   a grand battle ensues with B’s body acting as the last general. 
+-   the player eventually defeats B and learns that the enemy had been keeping them alive so, you let go and accept that B is dead.
+-   lets B die and have their peace
+-   player stops hallucinating

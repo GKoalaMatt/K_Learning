@@ -1,0 +1,6 @@
+-   The player gets aboard the ship that has been invading.
+-   learns how to disrupt navigation for ship
+-   each mission targets a general
+-   reach end game boss
+-   big reveal
+-   end credits

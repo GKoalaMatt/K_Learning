@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"type":"file","file":"Sentinels Rising/98_Files/Abilities, Skills, & Talents/SR_AST_Skills.png","id":"b123a3539b8c787c","x":-200,"y":-427,"width":399,"height":90},
+		{"type":"file","file":"Sentinels Rising/98_Files/Abilities, Skills, & Talents/SR_AST_Talents.png","id":"b411ff06a412f86a","x":-200,"y":-307,"width":400,"height":773},
+		{"type":"file","file":"Sentinels Rising/98_Files/Hit Effects/SR_HitEffects.png","id":"2b36cba9261f9610","x":-200,"y":493,"width":399,"height":295},
+		{"type":"file","file":"Sentinels Rising/98_Files/Stats/PlayerStats/SR_Stats_BasePlayerStats.png","id":"40704ba0c18df5af","x":240,"y":-427,"width":669,"height":307}
+	],
+	"edges":[]
+}

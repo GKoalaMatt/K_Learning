@@ -1,0 +1,251 @@
+{
+  "main": {
+    "id": "7ddd3625f644fc63",
+    "type": "split",
+    "children": [
+      {
+        "id": "7db399d0cdb7ebbd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e551cfd19b5d7398",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Sentinels Rising/05_Weapons&Armor/Player Weapons & Armor/RangedWeapons/AssaultRifle/RangedWeapon_AssaultRifle.canvas",
+                "viewState": {
+                  "x": -175.46876593790205,
+                  "y": -110.55038859278874,
+                  "zoom": -0.3333333333333334
+                }
+              }
+            }
+          },
+          {
+            "id": "f9bda10323de9576",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Sentinels Rising/05_Weapons&Armor/Enemies Weapons & Armor/Red Sector W&A/Red Sector Weapons & Armor.canvas",
+                "viewState": {
+                  "x": 90,
+                  "y": -407,
+                  "zoom": 0
+                }
+              }
+            }
+          },
+          {
+            "id": "02f05e9f381629d7",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Sentinels Rising/04_Stats/Enemy Stats/Red Sector Enemies/Red Sector Enemies.canvas",
+                "viewState": {
+                  "x": 169,
+                  "y": -5,
+                  "zoom": 0
+                }
+              }
+            }
+          },
+          {
+            "id": "3b1df9f946a8a566",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Sentinels Rising/05_Weapons&Armor/Player Weapons & Armor/RangedWeapons/Pistol/RangedWeapon_Pistol.canvas",
+                "viewState": {
+                  "x": 311.59357318188637,
+                  "y": 408.3930531546174,
+                  "zoom": -1.3333333333333333
+                }
+              }
+            }
+          },
+          {
+            "id": "716cd293f3156bf8",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Sentinels Rising/03_Feature Breakdown/04_Abilities & Usage/Abilities.canvas",
+                "viewState": {
+                  "x": 260,
+                  "y": -160,
+                  "zoom": 0
+                }
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "610e2c2a37e7b0d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "baa1551351a061da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "657a194d1b7c4f81",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "984f0f6454a32e50",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7702a8d9dc428fb0",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "09996f95d10ec0c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "11b0e191eab06c18",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c6cbe9ebd0c8e98",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Sentinels Rising/04_Stats/Enemy Stats/Red Sector Enemies/Red Sector Enemies.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "abc3ceb0a2eb9c6e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Sentinels Rising/04_Stats/Enemy Stats/Red Sector Enemies/Red Sector Enemies.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5251d11ef8891607",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cf71a4de6af26d60",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Sentinels Rising/04_Stats/Enemy Stats/Red Sector Enemies/Red Sector Enemies.canvas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "02f05e9f381629d7",
+  "lastOpenFiles": [
+    "Sentinels Rising/05_Weapons&Armor/Enemies Weapons & Armor/Red Sector W&A/Pasted image 20230408120702.png",
+    "Sentinels Rising/04_Stats/Enemy Stats/Red Sector Enemies/Enemies/Red Sector - Mantis Creature.md",
+    "Sentinels Rising/02_World Building/World Map/03_Red Sector.canvas",
+    "Sentinels Rising/02_World Building/World Map/01_World Building.canvas",
+    "Sentinels Rising/04_Stats/Enemy Stats/Red Sector Enemies/Red Sector Enemies.canvas",
+    "Sentinels Rising/04_Stats/Enemy Stats/Purple Sector Enemies/Purple Sector Enemies.canvas",
+    "Sentinels Rising/05_Weapons&Armor/Enemies Weapons & Armor/Red Sector W&A/Red Sector Weapons & Armor.canvas",
+    "Sentinels Rising/05_Weapons&Armor/Player Weapons & Armor/RangedWeapons/AssaultRifle/RangedWeapon_AssaultRifle.canvas",
+    "Sentinels Rising/03_Feature Breakdown/04_Abilities & Usage/Abilities.canvas",
+    "Sentinels Rising/04_Stats/Player Stats/Player Character.canvas",
+    "Sentinels Rising/05_Weapons&Armor/Player Weapons & Armor/RangedWeapons/Pistol/RangedWeapon_Pistol.canvas",
+    "Sentinels Rising/05_Weapons&Armor/Player Weapons & Armor/RangedWeapons/AssaultRifle/Assault Rifle.md",
+    "Sentinels Rising/05_Weapons&Armor/Player Weapons & Armor/RangedWeapons/Pistol/Pistol.md",
+    "Sentinels Rising/05_Weapons&Armor/Player Weapons & Armor/RangedWeapons/AssaultRifle/ExampleWeapon_Ranged.md",
+    "Sentinels Rising/98_Files/Weapons/Ranged/SR_Weapons_Ranged.png",
+    "Sentinels Rising/98_Files/Weapons/Ranged/SR_Weapons_Table_Ranged.png",
+    "Sentinels Rising/98_Files/Weapons/Ranged/ExampleWeapon_Temporary_NotPermanent.png",
+    "Sentinels Rising/05_Weapons&Armor/Enemies Weapons & Armor/Enemies Weapons & Armor.canvas",
+    "Sentinels Rising/98_Files/Trello Images/Trello_WeaponSystem.png",
+    "Sentinels Rising/98_Files/Trello Images/Trello_WeaponSystem_Info.png",
+    "Sentinels Rising/98_Files/Stats/Weapons/SR_Stats_RangedWeaponStats_Pistol.png",
+    "Sentinels Rising/98_Files/Stats/Weapons/SR_Stats_RangedWeaponStats_AssaultRifle.png",
+    "Sentinels Rising/98_Files/Stats/Weapons/SR_Stats_RangedWeaponStats.png",
+    "Sentinels Rising/05_Weapons&Armor/Player Weapons & Armor/RangedWeapons/Pistol",
+    "Sentinels Rising/05_Weapons&Armor/Player Weapons & Armor/RangedWeapons/AssaultRifle",
+    "Sentinels Rising/05_Weapons&Armor/Player Weapons & Armor/MeleeWeapons",
+    "Sentinels Rising/05_Weapons&Armor/Player Weapons & Armor/RangedWeapons",
+    "Sentinels Rising/05_Weapons&Armor/Player Weapons & Armor/01_Player Weapons & Armor Overview.md",
+    "Sentinels Rising/98_Files/Stats/Weapons",
+    "Sentinels Rising/98_Files/Stats/Weapons/SR_Stats_MeleeWeaponStats.png",
+    "Sentinels Rising/98_Files/Stats/PlayerStats/SR_Stats_BasePlayerStats.png",
+    "Sentinels Rising/98_Files/Stats/PlayerStats",
+    "Sentinels Rising/98_Files/Stats",
+    "Sentinels Rising/Tasking and Timelines/02_Tasking and Timelines.md",
+    "Sentinels Rising/Tasking and Timelines/Tasking.md"
+  ]
+}

@@ -1,0 +1,1 @@
+Some enemies will have specific overshields around their body to negate a percentage of damage. The players will need to deplete this overshield in order to do damage. The shields can be categorized into 3 different types which are ranged, physical, and energy. Damaging the enemies with the corresponding damage type will deplete the overshield faster. 

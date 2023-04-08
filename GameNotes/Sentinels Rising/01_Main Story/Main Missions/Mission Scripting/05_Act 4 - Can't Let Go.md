@@ -1,0 +1,10 @@
+-   Internal struggle with A and M
+-   M learns that B is still alive
+-   M shuts A out and refuses to talk or listen, this slowly rejects A out of M
+-   M goes on a series of missions hunting down the traces of B
+-   Finally confronts B but it's not B, just their body.
+-   Has the moment to kill B but decided not to.
+-   M rejects A unintentionally and then both A and M start to die.
+-   M accepts A back in and they resolve their differences
+-   The result ends up killing another one of the main characters
+-   “I know what I have to do, but I don’t think I am strong enough to do it”
