@@ -45,9 +45,9 @@
               "state": {
                 "file": "Sentinels Rising/04_Stats/Enemy Stats/Red Sector Enemies/Red Sector Enemies.canvas",
                 "viewState": {
-                  "x": 169,
-                  "y": -5,
-                  "zoom": 0
+                  "x": 355.3471844595665,
+                  "y": -122.57218937013229,
+                  "zoom": -0.3333333333333333
                 }
               }
             }
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sentinels Rising/98_Files/Characters/Enemies/Red Sector/Example_Mantis.png",
+                "file": "Sentinels Rising/04_Stats/Enemy Stats/Red Sector Enemies/Red Sector Enemies.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sentinels Rising/98_Files/Characters/Enemies/Red Sector/Example_Mantis.png",
+                "file": "Sentinels Rising/04_Stats/Enemy Stats/Red Sector Enemies/Red Sector Enemies.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sentinels Rising/98_Files/Characters/Enemies/Red Sector/Example_Mantis.png"
+                "file": "Sentinels Rising/04_Stats/Enemy Stats/Red Sector Enemies/Red Sector Enemies.canvas"
               }
             }
           }
@@ -210,8 +210,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "657a194d1b7c4f81",
+  "active": "02f05e9f381629d7",
   "lastOpenFiles": [
+    "Sentinels Rising/98_Files/Characters/Enemies/Red Sector/Example_Mantis2.png",
+    "Sentinels Rising/05_Weapons&Armor/Player Weapons & Armor/RangedWeapons/AssaultRifle/RangedWeapon_AssaultRifle.canvas",
     "Sentinels Rising/98_Files/Characters/Enemies/Red Sector",
     "Sentinels Rising/98_Files/Characters/Enemies",
     "Sentinels Rising/98_Files/Characters",
@@ -222,7 +224,6 @@
     "Sentinels Rising/04_Stats/Enemy Stats/Red Sector Enemies/Red Sector Enemies.canvas",
     "Sentinels Rising/04_Stats/Enemy Stats/Purple Sector Enemies/Purple Sector Enemies.canvas",
     "Sentinels Rising/05_Weapons&Armor/Enemies Weapons & Armor/Red Sector W&A/Red Sector Weapons & Armor.canvas",
-    "Sentinels Rising/05_Weapons&Armor/Player Weapons & Armor/RangedWeapons/AssaultRifle/RangedWeapon_AssaultRifle.canvas",
     "Sentinels Rising/03_Feature Breakdown/04_Abilities & Usage/Abilities.canvas",
     "Sentinels Rising/04_Stats/Player Stats/Player Character.canvas",
     "Sentinels Rising/05_Weapons&Armor/Player Weapons & Armor/RangedWeapons/Pistol/RangedWeapon_Pistol.canvas",
