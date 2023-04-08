@@ -3,7 +3,8 @@
 		{"type":"file","file":"Sentinels Rising/04_Stats/Enemy Stats/Red Sector Enemies/Enemies/Red Sector - Mantis Creature.md","id":"e14c510c3d6f5b31","x":-440,"y":-340,"width":660,"height":500},
 		{"type":"file","file":"Sentinels Rising/98_Files/Characters/Enemies/Red Sector/Example_Mantis.png","id":"b87595a8165f6270","x":240,"y":-340,"width":306,"height":500},
 		{"type":"file","file":"Sentinels Rising/98_Files/Characters/Enemies/Red Sector/Example_Mantis2.png","id":"4148a305dbddbf34","x":560,"y":-340,"width":306,"height":500},
-		{"type":"text","text":"*Add Image*","id":"7ee51e5ae428d157","x":95,"y":-500,"width":250,"height":110}
+		{"type":"text","text":"*Add Image*","id":"7ee51e5ae428d157","x":95,"y":-500,"width":250,"height":110},
+		{"id":"3bac8bfcbc8ceecc","x":240,"y":260,"width":400,"height":389,"type":"file","file":"Sentinels Rising/98_Files/Characters/Enemies/Example_Enemy.png"}
 	],
 	"edges":[]
 }
