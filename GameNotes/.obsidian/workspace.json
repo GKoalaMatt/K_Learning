@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sentinels Rising/04_Stats/Enemy Stats/Red Sector Enemies/Red Sector Enemies.canvas",
+                "file": "Sentinels Rising/98_Files/Characters/Enemies/Red Sector/Example_Mantis.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sentinels Rising/04_Stats/Enemy Stats/Red Sector Enemies/Red Sector Enemies.canvas",
+                "file": "Sentinels Rising/98_Files/Characters/Enemies/Red Sector/Example_Mantis.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sentinels Rising/04_Stats/Enemy Stats/Red Sector Enemies/Red Sector Enemies.canvas"
+                "file": "Sentinels Rising/98_Files/Characters/Enemies/Red Sector/Example_Mantis.png"
               }
             }
           }
@@ -210,9 +210,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02f05e9f381629d7",
+  "active": "657a194d1b7c4f81",
   "lastOpenFiles": [
-    "Sentinels Rising/05_Weapons&Armor/Enemies Weapons & Armor/Red Sector W&A/Pasted image 20230408120702.png",
+    "Sentinels Rising/98_Files/Characters/Enemies/Red Sector",
+    "Sentinels Rising/98_Files/Characters/Enemies",
+    "Sentinels Rising/98_Files/Characters",
+    "Sentinels Rising/98_Files/Characters/Enemies/Red Sector/Example_Mantis.png",
     "Sentinels Rising/04_Stats/Enemy Stats/Red Sector Enemies/Enemies/Red Sector - Mantis Creature.md",
     "Sentinels Rising/02_World Building/World Map/03_Red Sector.canvas",
     "Sentinels Rising/02_World Building/World Map/01_World Building.canvas",
@@ -242,7 +245,6 @@
     "Sentinels Rising/05_Weapons&Armor/Player Weapons & Armor/01_Player Weapons & Armor Overview.md",
     "Sentinels Rising/98_Files/Stats/Weapons",
     "Sentinels Rising/98_Files/Stats/Weapons/SR_Stats_MeleeWeaponStats.png",
-    "Sentinels Rising/98_Files/Stats/PlayerStats/SR_Stats_BasePlayerStats.png",
     "Sentinels Rising/98_Files/Stats/PlayerStats",
     "Sentinels Rising/98_Files/Stats",
     "Sentinels Rising/Tasking and Timelines/02_Tasking and Timelines.md",
