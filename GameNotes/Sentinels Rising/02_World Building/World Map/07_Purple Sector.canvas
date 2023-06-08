@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"type":"file","file":"Sentinels Rising/98_Files/Map Images/SR_Map_PurpleSector.png","id":"62ca9c6288a84ea2","x":-160,"y":-140,"width":353,"height":400},
-		{"id":"a94bdda965f5440d","x":220,"y":-260,"width":180,"height":778,"type":"file","file":"Sentinels Rising/98_Files/Map Images/SR_Map_PurpleSector_Info.png"}
-	],
-	"edges":[]
-}

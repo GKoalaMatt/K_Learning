@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"type":"file","file":"Sentinels Rising/98_Files/Map Images/SR_Map_YellowSector.png","id":"b690ed85be70cac9","x":-160,"y":-160,"width":343,"height":400},
-		{"id":"189e8f782132655b","x":220,"y":-240,"width":157,"height":678,"type":"file","file":"Sentinels Rising/98_Files/Map Images/SR_Map_YellowSector_Info.png"}
-	],
-	"edges":[]
-}

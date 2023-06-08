@@ -1,9 +1,0 @@
--   Player wakes up and hears a muffled alien-like voice talking to them.
--   The player then wanders from 
--   The first time player is able to roam the open world
--   small combat scene
--   assimilates an enemy/meets A
--   player kills a Lieutenant
--   comms tell the player to rendezvous at a location
--   player returns to NEXUS
--   The player is introduced to a handful of top military figures, scientists, and other important vendors.

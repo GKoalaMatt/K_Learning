@@ -1,1 +1,0 @@
-When the player wants to know what threat level nearby enemies are, they can send out a signal that measures their combat power. This can only be activated outside of combat.

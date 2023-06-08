@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"type":"file","file":"Sentinels Rising/98_Files/Map Images/SR_Map_Nexus.png","id":"43e1a9a5d6aabf1e","x":-160,"y":-200,"width":366,"height":400},
-		{"id":"266957d570911aa1","x":240,"y":-200,"width":180,"height":778,"type":"file","file":"Sentinels Rising/98_Files/Map Images/SR_Map_Nexus_Info.png"}
-	],
-	"edges":[]
-}

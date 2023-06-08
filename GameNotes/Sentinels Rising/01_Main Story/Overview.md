@@ -1,1 +1,0 @@
-Explaining the main narrative of the game to the reader

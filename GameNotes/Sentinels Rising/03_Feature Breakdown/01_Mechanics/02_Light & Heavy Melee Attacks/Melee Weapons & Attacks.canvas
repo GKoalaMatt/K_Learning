@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"type":"file","file":"Sentinels Rising/98_Files/Weapons/Melee/SR_Weapons_Melee.png","id":"f1718d58fc0a7b47","x":-180,"y":-180,"width":400,"height":92},
-		{"type":"file","file":"Sentinels Rising/98_Files/Weapons/Melee/SR_Weapons_Table_Melee.png","id":"cb26d8f77aff12c4","x":-180,"y":-60,"width":400,"height":147}
-	],
-	"edges":[]
-}

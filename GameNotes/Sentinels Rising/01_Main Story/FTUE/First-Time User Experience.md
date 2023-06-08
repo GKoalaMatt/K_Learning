@@ -1,1 +1,0 @@
-How will the player be introduced to the mechanics, features, and other ways the game displays information to the player
