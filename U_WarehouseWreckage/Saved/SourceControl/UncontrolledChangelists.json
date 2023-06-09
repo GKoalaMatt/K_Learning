@@ -6,7 +6,6 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/StarterContent/Architecture/Floor_400x400.uasset",
-				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/M_WarehouseWreckage_HLOD0_Instancing.uasset",
 				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalActors__/M_WarehouseWreckage/E/BO/TRTHRBSSVRE6CBZSNXZENA.uasset",
 				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalObjects__/M_WarehouseWreckage/1/YN/PN48SY3CKCO4EH8Y68DST8.uasset",
 				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalObjects__/M_WarehouseWreckage/E/LX/RBLRUFRP1RLLDGUBUBP947.uasset",
@@ -229,7 +228,6 @@
 				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalActors__/Warehouse_Wreckage/M_WarehouseWreckage/D/FS/3QLJGZ5HYROPU4JFQJWJP2.uasset",
 				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalActors__/Warehouse_Wreckage/M_WarehouseWreckage/C/YH/WMR89MB3JQU78PM8XW1BJQ.uasset",
 				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/Warehouse_Wreckage/M_WarehouseWreckage.umap",
-				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/Warehouse_Wreckage/M_WarehouseWreckage_HLOD0_Instancing.uasset",
 				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalActors__/Warehouse_Wreckage/Maps/M_WarehouseWreckage/E/VR/LZU0BGXG1ENMNY8NVQ60MU.uasset",
 				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalObjects__/Warehouse_Wreckage/Maps/M_WarehouseWreckage/E/MX/4060NXS8HFCH31QSSAGL30.uasset",
 				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalObjects__/Warehouse_Wreckage/Maps/M_WarehouseWreckage/4/WI/CK7PXV9T2ZSP2A28ELYAFF.uasset",
@@ -315,7 +313,21 @@
 				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalActors__/Warehouse_Wreckage/Maps/M_WarehouseWreckage/2/G7/BKVVPCAL6FBFHQ8T86SNTG.uasset",
 				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalActors__/Warehouse_Wreckage/Maps/M_WarehouseWreckage/C/L7/LST7WMPF8AYMTBFUYH8S0E.uasset",
 				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalActors__/Warehouse_Wreckage/Maps/M_WarehouseWreckage/E/C4/JTA4583IQNTFAWEXYHS6E9.uasset",
-				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/Warehouse_Wreckage/Blueprints/BP_Projectile.uasset"
+				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/Warehouse_Wreckage/Blueprints/BP_Projectile.uasset",
+				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/Stylized_Egypt/Meshes/building/SM_wall_13.uasset",
+				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalActors__/Warehouse_Wreckage/Maps/M_WarehouseWreckage/0/H9/XXEHHPJ1LO4MRRHU2ZCDPS.uasset",
+				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalActors__/Warehouse_Wreckage/Maps/M_WarehouseWreckage/4/MQ/6ROX82SMVA7PMMRVX3ZNME.uasset",
+				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalActors__/Warehouse_Wreckage/Maps/M_WarehouseWreckage/1/FC/KK1K1R2UVTWKLNOYAJPLIV.uasset",
+				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalActors__/Warehouse_Wreckage/Maps/M_WarehouseWreckage/0/C9/21TD91D8A3O7INU69A33WF.uasset",
+				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalActors__/Warehouse_Wreckage/Maps/M_WarehouseWreckage/D/W1/ZW4ZR8FTMMQA2KVULIFHWH.uasset",
+				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalActors__/Warehouse_Wreckage/Maps/M_WarehouseWreckage/3/BV/VNQT59AR608RAGLC82ILDS.uasset",
+				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalActors__/Warehouse_Wreckage/Maps/M_WarehouseWreckage/D/B3/OQMP3O7KUVI1BHD3I5NXUP.uasset",
+				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalActors__/Warehouse_Wreckage/Maps/M_WarehouseWreckage/1/8X/GG99NK973HG5Z84M2NOQG4.uasset",
+				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalActors__/Warehouse_Wreckage/Maps/M_WarehouseWreckage/2/OD/89KI422AVUR5CNRR3HQVPV.uasset",
+				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalActors__/Warehouse_Wreckage/Maps/M_WarehouseWreckage/F/0B/QC8ZGHA0PIHBBMPAOWMAW7.uasset",
+				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/__ExternalActors__/Warehouse_Wreckage/Maps/M_WarehouseWreckage/4/T7/6H60IX43KCRI0OZL059331.uasset",
+				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/M_WarehouseWreckage_HLOD0_Instancing.uasset",
+				"E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/Warehouse_Wreckage/M_WarehouseWreckage_HLOD0_Instancing.uasset"
 			]
 		}
 	]
