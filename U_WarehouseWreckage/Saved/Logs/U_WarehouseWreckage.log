@@ -1101,3 +1101,1628 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.06.08-23.04.44:559][546]LogSlate: Window 'Project Settings' being destroyed
 [2023.06.08-23.05.19:378][970]LogDerivedDataCache: C:/Users/ellio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:34.728 and deleted 1794 files with total size 27 MiB. Scanned 2437 files in 2423 folders with total size 54 MiB.
 [2023.06.08-23.06.29:607][ 14]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.08.31:447][607]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.10.14:913][779]LogViewport: Scene viewport resized to 1141x693, mode Windowed.
+[2023.06.08-23.10.28:123][924]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.10.34:217][418]LogShaderCompilers: Display: ================================================
+[2023.06.08-23.10.34:217][418]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.06.08-23.10.34:217][418]LogShaderCompilers: Display: Total job queries 129, among them cache hits 19 (14.73%)
+[2023.06.08-23.10.34:217][418]LogShaderCompilers: Display: Tracking 107 distinct input hashes that result in 86 distinct outputs (80.37%)
+[2023.06.08-23.10.34:217][418]LogShaderCompilers: Display: RAM used: 0.90 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.11%
+[2023.06.08-23.10.34:217][418]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.06.08-23.10.34:217][418]LogShaderCompilers: Display: Shaders Compiled: 18
+[2023.06.08-23.10.34:217][418]LogShaderCompilers: Display: Jobs assigned 21, completed 18 (85.71%)
+[2023.06.08-23.10.34:218][418]LogShaderCompilers: Display: Average time worker was idle: 43.90 s
+[2023.06.08-23.10.34:218][418]LogShaderCompilers: Display: Time job spent in pending queue: average 15.00 s, longest 71.16 s
+[2023.06.08-23.10.34:218][418]LogShaderCompilers: Display: Job execution time: average 17.20 s, max 55.66 s
+[2023.06.08-23.10.34:218][418]LogShaderCompilers: Display: Job life time (pending + execution): average 33.93 s, max 99.29
+[2023.06.08-23.10.34:218][418]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 128.18 s
+[2023.06.08-23.10.34:219][418]LogShaderCompilers: Display: Jobs were issued in 21 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.06.08-23.10.34:219][418]LogShaderCompilers: Display: Average processing rate: 0.14 jobs/sec
+[2023.06.08-23.10.34:219][418]LogShaderCompilers: Display: Total thread time: 216.34 s
+[2023.06.08-23.10.34:219][418]LogShaderCompilers: Display: Total thread preprocess time: 5.91 s
+[2023.06.08-23.10.34:219][418]LogShaderCompilers: Display: Percentage time preprocessing: 2.73%
+[2023.06.08-23.10.34:219][418]LogShaderCompilers: Display: Effective parallelization: 1.69 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2023.06.08-23.10.34:219][418]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.06.08-23.10.34:219][418]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    3 times, average 24.41 sec, max 43.81 sec, min 2.14 sec)
+[2023.06.08-23.10.34:219][418]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    4 times, average 19.74 sec, max 47.84 sec, min 3.14 sec)
+[2023.06.08-23.10.34:219][418]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 9.23 sec, max 15.80 sec, min 3.92 sec)
+[2023.06.08-23.10.34:219][418]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 8.83 sec, max 15.99 sec, min 3.62 sec)
+[2023.06.08-23.10.34:219][418]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 5.64 sec, max 5.64 sec, min 5.64 sec)
+[2023.06.08-23.10.34:219][418]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.06.08-23.10.34:219][418]LogShaderCompilers: Display:                                                 FLumenCardVS - 36.50% of total time (compiled    4 times, average 19.74 sec, max 47.84 sec, min 3.14 sec)
+[2023.06.08-23.10.34:219][418]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 33.85% of total time (compiled    3 times, average 24.41 sec, max 43.81 sec, min 2.14 sec)
+[2023.06.08-23.10.34:219][418]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.80% of total time (compiled    3 times, average 9.23 sec, max 15.80 sec, min 3.92 sec)
+[2023.06.08-23.10.34:219][418]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.25% of total time (compiled    3 times, average 8.83 sec, max 15.99 sec, min 3.62 sec)
+[2023.06.08-23.10.34:219][418]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 2.61% of total time (compiled    1 times, average 5.64 sec, max 5.64 sec, min 5.64 sec)
+[2023.06.08-23.10.34:219][418]LogShaderCompilers: Display: ================================================
+[2023.06.08-23.10.55:386][148]BlueprintLog: New page: Compile BP_Projectile
+[2023.06.08-23.10.55:512][148]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2023.06.08-23.10.55:538][148]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.08-23.10.55:630][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Warehouse_Wreckage/Blueprints/BP_Projectile" FILE="E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/Warehouse_Wreckage/Blueprints/BP_Projectile.uasset" SILENT=true
+[2023.06.08-23.10.55:644][148]LogPackageLocalizationCache: Processed 43 localized package path(s) for 1 prioritized culture(s) in 0.011643 seconds
+[2023.06.08-23.10.55:650][148]LogSerialization: UsePackageTrailer: 'true'
+[2023.06.08-23.10.55:658][148]LogSavePackage: Moving output files for package: /Game/Warehouse_Wreckage/Blueprints/BP_Projectile
+[2023.06.08-23.10.55:660][148]LogSavePackage: Moving 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Saved/BP_Projectile4210AF95479BEF369ABF8880564D52CC.tmp' to 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/Warehouse_Wreckage/Blueprints/BP_Projectile.uasset'
+[2023.06.08-23.10.55:669][148]LogFileHelpers: InternalPromptForCheckoutAndSave took 131 ms
+[2023.06.08-23.10.55:678][148]AssetCheck: New page: Asset Save: BP_Projectile
+[2023.06.08-23.10.55:679][148]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Warehouse_Wreckage/Blueprints/BP_Projectile.BP_Projectile
+[2023.06.08-23.10.57:577][305]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.08-23.10.57:596][305]LogContentBundle: [Container: M_WarehouseWreckage] Generating Streaming for 0 Content Bundles.
+[2023.06.08-23.10.57:606][305]LogWorldPartition: Display: GenerateStreaming started...
+[2023.06.08-23.10.57:607][305]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.06.08-23.10.57:608][305]LogWorldPartition: Display: GetPartitionedActors took 829 us
+[2023.06.08-23.10.57:609][305]LogWorldPartition: Display: GenerateStreaming took 3 ms
+[2023.06.08-23.10.57:616][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.08-23.10.57:617][305]PIE: New page: PIE session: M_WarehouseWreckage (Jun 8, 2023, 1:10:57 PM)
+[2023.06.08-23.10.57:627][305]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.06.08-23.10.57:629][305]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.06.08-23.10.57:630][305]LogPlayLevel: Creating play world package: /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage
+[2023.06.08-23.10.57:639][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008416s)
+[2023.06.08-23.10.57:639][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage to /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage.M_WarehouseWreckage (0.008808s)
+[2023.06.08-23.10.57:640][305]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.08-23.10.57:641][305]LogAIModule: Creating AISystem for world M_WarehouseWreckage
+[2023.06.08-23.10.57:642][305]LogWorldPartition: ULevel::OnLevelLoaded(M_WarehouseWreckage)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.06.08-23.10.57:642][305]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.06.08-23.10.57:642][305]LogWorldPartition: UWorldPartition::Initialize(Asset=M_WarehouseWreckage, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.06.08-23.10.57:643][305]LogContentBundle: [Container: M_WarehouseWreckage] Creating new contrainer.
+[2023.06.08-23.10.57:643][305]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 3.82 sec)
+[2023.06.08-23.10.57:643][305]LogPlayLevel: PIE: World Init took: (0.003572s)
+[2023.06.08-23.10.57:701][305]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.06.08-23.10.57:707][305]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.06.08-23.10.57:707][305]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.08-23.10.57:707][305]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.08-23.10.57:707][305]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.08-23.10.57:707][305]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.08-23.10.57:707][305]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.08-23.10.57:707][305]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.08-23.10.57:707][305]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.08-23.10.57:707][305]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.08-23.10.57:708][305]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.08-23.10.57:708][305]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.08-23.10.57:708][305]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.08-23.10.57:710][305]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.08-23.10.57:966][305]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VIRTUOSO SE Wireless Gaming Headset)
+[2023.06.08-23.10.57:966][305]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.08-23.10.57:967][305]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.08-23.10.57:967][305]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.08-23.10.57:968][305]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.06.08-23.10.57:968][305]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=2
+[2023.06.08-23.10.57:970][305]LogInit: FAudioDevice initialized.
+[2023.06.08-23.10.57:970][305]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.06.08-23.10.57:970][305]LogAudio: Display: Audio Device (ID: 2) registered with world 'M_WarehouseWreckage'.
+[2023.06.08-23.10.57:970][305]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.06.08-23.10.58:037][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.08-23.10.58:039][305]LogLoad: Game class is 'GameModeBase'
+[2023.06.08-23.10.58:040][305]LogWorld: Bringing World /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage.M_WarehouseWreckage up for play (max tick rate 0) at 2023.06.08-18.10.58
+[2023.06.08-23.10.58:042][305]LogWorld: Bringing up level for play took: 0.002623
+[2023.06.08-23.10.58:045][305]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2023.06.08-23.10.58:049][305]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.06.08-23.10.58:074][305]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=0.000 Y=0.000 Z=0.000
+[2023.06.08-23.10.58:075][305]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(36), CellsToLoad(0), CellsToUnload(0)
+[2023.06.08-23.10.58:075][305]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=0.000 Y=0.000 Z=0.000,P=0.000000 Y=0.000000 R=-0.000000
+[2023.06.08-23.10.58:081][305]LogStreaming: Display: FlushAsyncLoading(-1): 39 QueuedPackages, 0 AsyncPackages
+[2023.06.08-23.10.58:425][305]LogBlueprintUserMessages: [M_WarehouseWreckage_C_10] Hello Player!
+[2023.06.08-23.10.58:431][305]PIE: Server logged in
+[2023.06.08-23.10.58:432][305]PIE: Play in editor total start time 0.837 seconds.
+[2023.06.08-23.10.58:572][305]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.06.08-23.11.01:502][425]LogStreaming: Warning: Detected 47 objects loaded in PostLoad while streaming, this may cause hitches as we're blocking async loading to pre-load them.
+[2023.06.08-23.11.01:545][427]LogStreaming: Warning: Detected 10 objects loaded in PostLoad while streaming, this may cause hitches as we're blocking async loading to pre-load them.
+[2023.06.08-23.11.03:401][533]LogBlueprintUserMessages: [BP_Projectile_C_0] Blamo!
+[2023.06.08-23.11.05:883][676]LogBlueprintUserMessages: [BP_Projectile_C_1] Blamo!
+[2023.06.08-23.11.07:092][744]LogBlueprintUserMessages: [BP_Projectile_C_2] Blamo!
+[2023.06.08-23.11.08:295][808]LogBlueprintUserMessages: [BP_Projectile_C_3] Blamo!
+[2023.06.08-23.11.08:892][843]LogBlueprintUserMessages: [BP_Projectile_C_4] Blamo!
+[2023.06.08-23.11.09:157][859]LogBlueprintUserMessages: [BP_Projectile_C_5] Blamo!
+[2023.06.08-23.11.10:719][949]LogBlueprintUserMessages: [BP_Projectile_C_6] Blamo!
+[2023.06.08-23.11.10:955][963]LogBlueprintUserMessages: [BP_Projectile_C_7] Blamo!
+[2023.06.08-23.11.11:122][973]LogBlueprintUserMessages: [BP_Projectile_C_8] Blamo!
+[2023.06.08-23.11.15:387][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.08-23.11.15:387][215]LogWorld: BeginTearingDown for /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage
+[2023.06.08-23.11.15:389][215]LogSlate: Window 'U_WarehouseWreckage Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.06.08-23.11.15:421][215]LogWorld: UWorld::CleanupWorld for M_WarehouseWreckage, bSessionEnded=true, bCleanupResources=true
+[2023.06.08-23.11.15:421][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.08-23.11.15:422][215]LogContentBundle: [Container: M_WarehouseWreckage] Deleting container.
+[2023.06.08-23.11.15:426][215]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.08-23.11.15:435][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.08-23.11.15:492][215]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.08-23.11.15:513][215]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.06.08-23.11.15:515][215]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.06.08-23.11.15:570][215]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2023.06.08-23.11.15:623][216]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2023.06.08-23.11.26:873][ 60]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage:PersistentLevel.M_WarehouseWreckage
+[2023.06.08-23.11.26:873][ 60]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.08-23.12.26:369][612]BlueprintLog: New page: Compile M_WarehouseWreckage
+[2023.06.08-23.12.26:586][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2023.06.08-23.12.26:601][612]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.08-23.12.26:669][612]LogFileHelpers: No new changes to save!
+[2023.06.08-23.12.26:736][612]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.06.08-23.12.26:966][612]LogSavePackage: Moving output files for package: /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage
+[2023.06.08-23.12.26:967][612]LogSavePackage: Moving 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Saved/M_WarehouseWreckageAD7532E3484CC5A0057EF080F2EA444E.tmp' to 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/Warehouse_Wreckage/Maps/M_WarehouseWreckage.umap'
+[2023.06.08-23.12.27:053][612]LogFileHelpers: Saving map 'M_WarehouseWreckage' took 0.386
+[2023.06.08-23.12.27:061][612]LogFileHelpers: InternalPromptForCheckoutAndSave took 460 ms (total: 591 ms)
+[2023.06.08-23.12.27:071][612]AssetCheck: New page: Asset Save: M_WarehouseWreckage
+[2023.06.08-23.12.27:071][612]LogContentValidation: Display: Validating /Script/Engine.World /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage
+[2023.06.08-23.12.57:894][194]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.13.20:176][261]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.13.51:082][354]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.14.20:596][442]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.15.16:840][611]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.15.46:312][699]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.16.31:716][835]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.17.25:233][996]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.17.59:146][469]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.19.12:233][688]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.20.09:159][859]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.20.46:091][970]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.21.33:962][113]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.22.10:699][223]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.22.44:093][323]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.23.24:259][444]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.24.06:180][569]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.24.39:409][669]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.25.26:442][810]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.25.50:633][883]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.26.25:233][986]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.27.21:932][156]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.27.57:391][263]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.29.11:088][484]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.29.32:862][549]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.30.08:043][654]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.08-23.30.30:224][720]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-00.04.45:907][877]LogDerivedDataCache: C:/Users/ellio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.256 and deleted 0 files with total size 0 MiB. Scanned 654 files in 651 folders with total size 27 MiB.
+[2023.06.09-00.51.48:197][602]BlueprintLog: New page: Compile M_WarehouseWreckage
+[2023.06.09-00.51.48:379][602]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2023.06.09-00.51.48:407][602]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-00.51.48:473][602]LogFileHelpers: No new changes to save!
+[2023.06.09-00.51.48:534][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.06.09-00.51.48:544][602]LogSavePackage: Moving output files for package: /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage
+[2023.06.09-00.51.48:545][602]LogSavePackage: Moving 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Saved/M_WarehouseWreckage8EBEF38549276ED2E8D43D9D6832C7A4.tmp' to 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/Warehouse_Wreckage/Maps/M_WarehouseWreckage.umap'
+[2023.06.09-00.51.48:560][602]LogFileHelpers: Saving map 'M_WarehouseWreckage' took 0.087
+[2023.06.09-00.51.48:567][602]LogFileHelpers: InternalPromptForCheckoutAndSave took 159 ms (total: 751 ms)
+[2023.06.09-00.51.48:578][602]AssetCheck: New page: Asset Save: M_WarehouseWreckage
+[2023.06.09-00.51.48:578][602]LogContentValidation: Display: Validating /Script/Engine.World /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage
+[2023.06.09-00.51.49:708][730]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.09-00.51.49:716][730]LogContentBundle: [Container: M_WarehouseWreckage] Generating Streaming for 0 Content Bundles.
+[2023.06.09-00.51.49:718][730]LogWorldPartition: Display: GenerateStreaming started...
+[2023.06.09-00.51.49:718][730]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.06.09-00.51.49:718][730]LogWorldPartition: Display: GetPartitionedActors took 39 us (total: 868 us)
+[2023.06.09-00.51.49:719][730]LogWorldPartition: Display: GenerateStreaming took 956 us (total: 4 ms)
+[2023.06.09-00.51.49:720][730]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.09-00.51.49:720][730]PIE: New page: PIE session: M_WarehouseWreckage (Jun 8, 2023, 2:51:49 PM)
+[2023.06.09-00.51.49:720][730]LogPlayLevel: Creating play world package: /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage
+[2023.06.09-00.51.49:727][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006960s)
+[2023.06.09-00.51.49:727][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage to /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage.M_WarehouseWreckage (0.007008s)
+[2023.06.09-00.51.49:728][730]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.09-00.51.49:728][730]LogAIModule: Creating AISystem for world M_WarehouseWreckage
+[2023.06.09-00.51.49:729][730]LogWorldPartition: ULevel::OnLevelLoaded(M_WarehouseWreckage)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.06.09-00.51.49:729][730]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.06.09-00.51.49:729][730]LogWorldPartition: UWorldPartition::Initialize(Asset=M_WarehouseWreckage, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.06.09-00.51.49:731][730]LogContentBundle: [Container: M_WarehouseWreckage] Creating new contrainer.
+[2023.06.09-00.51.49:731][730]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 3.83 sec)
+[2023.06.09-00.51.49:731][730]LogPlayLevel: PIE: World Init took: (0.003672s)
+[2023.06.09-00.51.49:786][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.06.09-00.51.49:787][730]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.06.09-00.51.49:787][730]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.09-00.51.49:787][730]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.09-00.51.49:788][730]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.09-00.51.49:788][730]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.09-00.51.49:788][730]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.09-00.51.49:788][730]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.09-00.51.49:788][730]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.09-00.51.49:788][730]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.09-00.51.49:788][730]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.09-00.51.49:788][730]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.09-00.51.49:788][730]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.09-00.51.49:791][730]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.09-00.51.50:049][730]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VIRTUOSO SE Wireless Gaming Headset)
+[2023.06.09-00.51.50:050][730]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.09-00.51.50:050][730]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.09-00.51.50:050][730]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.09-00.51.50:052][730]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.06.09-00.51.50:052][730]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=3
+[2023.06.09-00.51.50:054][730]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.06.09-00.51.50:054][730]LogInit: FAudioDevice initialized.
+[2023.06.09-00.51.50:054][730]LogAudio: Display: Audio Device (ID: 3) registered with world 'M_WarehouseWreckage'.
+[2023.06.09-00.51.50:054][730]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.06.09-00.51.50:106][730]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.09-00.51.50:106][730]LogLoad: Game class is 'GameModeBase'
+[2023.06.09-00.51.50:107][730]LogWorld: Bringing World /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage.M_WarehouseWreckage up for play (max tick rate 0) at 2023.06.08-19.51.50
+[2023.06.09-00.51.50:107][730]LogWorld: Bringing up level for play took: 0.001185
+[2023.06.09-00.51.50:109][730]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2023.06.09-00.51.50:111][730]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.06.09-00.51.50:111][730]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=0.000 Y=0.000 Z=0.000
+[2023.06.09-00.51.50:111][730]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(36), CellsToLoad(0), CellsToUnload(0)
+[2023.06.09-00.51.50:111][730]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=0.000 Y=0.000 Z=0.000,P=0.000000 Y=0.000000 R=-0.000000
+[2023.06.09-00.51.50:115][730]LogStreaming: Display: FlushAsyncLoading(-1): 39 QueuedPackages, 0 AsyncPackages
+[2023.06.09-00.51.50:570][730]LogBlueprintUserMessages: [M_WarehouseWreckage_C_1] Hello Player!
+[2023.06.09-00.51.50:572][730]PIE: Server logged in
+[2023.06.09-00.51.50:573][730]PIE: Play in editor total start time 0.857 seconds.
+[2023.06.09-00.51.50:757][730]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.06.09-00.51.54:706][959]LogBlueprintUserMessages: [BP_Projectile_C_0] Blamo!
+[2023.06.09-00.51.57:101][104]LogBlueprintUserMessages: [BP_Projectile_C_1] Blamo!
+[2023.06.09-00.51.59:193][226]LogBlueprintUserMessages: [BP_Projectile_C_2] Blamo!
+[2023.06.09-00.51.59:779][263]LogBlueprintUserMessages: [BP_Projectile_C_3] Blamo!
+[2023.06.09-00.52.00:041][279]LogBlueprintUserMessages: [BP_Projectile_C_4] Blamo!
+[2023.06.09-00.52.05:738][623]LogBlueprintUserMessages: [BP_Projectile_C_5] Blamo!
+[2023.06.09-00.52.08:180][761]LogBlueprintUserMessages: [BP_Projectile_C_6] Blamo!
+[2023.06.09-00.52.09:422][832]LogBlueprintUserMessages: [BP_Projectile_C_7] Blamo!
+[2023.06.09-00.52.10:182][875]LogBlueprintUserMessages: [BP_Projectile_C_8] Blamo!
+[2023.06.09-00.52.10:530][895]LogBlueprintUserMessages: [BP_Projectile_C_9] Blamo!
+[2023.06.09-00.52.10:750][908]LogBlueprintUserMessages: [BP_Projectile_C_10] Blamo!
+[2023.06.09-00.52.10:980][921]LogBlueprintUserMessages: [BP_Projectile_C_11] Blamo!
+[2023.06.09-00.52.11:210][934]LogBlueprintUserMessages: [BP_Projectile_C_12] Blamo!
+[2023.06.09-00.52.11:452][947]LogBlueprintUserMessages: [BP_Projectile_C_13] Blamo!
+[2023.06.09-00.52.11:670][959]LogBlueprintUserMessages: [BP_Projectile_C_14] Blamo!
+[2023.06.09-00.52.11:899][972]LogBlueprintUserMessages: [BP_Projectile_C_15] Blamo!
+[2023.06.09-00.52.12:103][984]LogBlueprintUserMessages: [BP_Projectile_C_16] Blamo!
+[2023.06.09-00.52.14:245][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.09-00.52.14:245][115]LogWorld: BeginTearingDown for /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage
+[2023.06.09-00.52.14:246][115]LogSlate: Window 'U_WarehouseWreckage Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.06.09-00.52.14:282][115]LogWorld: UWorld::CleanupWorld for M_WarehouseWreckage, bSessionEnded=true, bCleanupResources=true
+[2023.06.09-00.52.14:282][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.09-00.52.14:283][115]LogContentBundle: [Container: M_WarehouseWreckage] Deleting container.
+[2023.06.09-00.52.14:289][115]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.09-00.52.14:297][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.09-00.52.14:361][115]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.09-00.52.14:361][115]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.06.09-00.52.14:364][115]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.06.09-00.52.14:388][115]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.06.09-00.52.14:436][116]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.06.09-00.53.00:365][231]BlueprintLog: New page: Compile M_WarehouseWreckage
+[2023.06.09-00.53.00:503][231]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.06.09-00.53.00:516][231]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-00.53.00:573][231]LogFileHelpers: No new changes to save!
+[2023.06.09-00.53.00:634][231]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.06.09-00.53.00:644][231]LogSavePackage: Moving output files for package: /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage
+[2023.06.09-00.53.00:645][231]LogSavePackage: Moving 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Saved/M_WarehouseWreckageA936763344EDE175CCC8A580417DA436.tmp' to 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/Warehouse_Wreckage/Maps/M_WarehouseWreckage.umap'
+[2023.06.09-00.53.00:658][231]LogFileHelpers: Saving map 'M_WarehouseWreckage' took 0.086
+[2023.06.09-00.53.00:665][231]LogFileHelpers: InternalPromptForCheckoutAndSave took 149 ms (total: 900 ms)
+[2023.06.09-00.53.00:675][231]AssetCheck: New page: Asset Save: M_WarehouseWreckage
+[2023.06.09-00.53.00:675][231]LogContentValidation: Display: Validating /Script/Engine.World /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage
+[2023.06.09-00.53.02:450][412]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.09-00.53.02:457][412]LogContentBundle: [Container: M_WarehouseWreckage] Generating Streaming for 0 Content Bundles.
+[2023.06.09-00.53.02:459][412]LogWorldPartition: Display: GenerateStreaming started...
+[2023.06.09-00.53.02:459][412]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.06.09-00.53.02:459][412]LogWorldPartition: Display: GetPartitionedActors took 32 us (total: 901 us)
+[2023.06.09-00.53.02:460][412]LogWorldPartition: Display: GenerateStreaming took 1 ms (total: 5 ms)
+[2023.06.09-00.53.02:461][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.09-00.53.02:461][412]PIE: New page: PIE session: M_WarehouseWreckage (Jun 8, 2023, 2:53:02 PM)
+[2023.06.09-00.53.02:461][412]LogPlayLevel: Creating play world package: /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage
+[2023.06.09-00.53.02:467][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005865s)
+[2023.06.09-00.53.02:467][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage to /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage.M_WarehouseWreckage (0.005907s)
+[2023.06.09-00.53.02:468][412]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.09-00.53.02:468][412]LogAIModule: Creating AISystem for world M_WarehouseWreckage
+[2023.06.09-00.53.02:469][412]LogWorldPartition: ULevel::OnLevelLoaded(M_WarehouseWreckage)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.06.09-00.53.02:469][412]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.06.09-00.53.02:469][412]LogWorldPartition: UWorldPartition::Initialize(Asset=M_WarehouseWreckage, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.06.09-00.53.02:470][412]LogContentBundle: [Container: M_WarehouseWreckage] Creating new contrainer.
+[2023.06.09-00.53.02:470][412]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 3.83 sec)
+[2023.06.09-00.53.02:470][412]LogPlayLevel: PIE: World Init took: (0.003073s)
+[2023.06.09-00.53.02:527][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.06.09-00.53.02:528][412]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.06.09-00.53.02:528][412]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.09-00.53.02:528][412]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.09-00.53.02:528][412]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.09-00.53.02:528][412]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.09-00.53.02:528][412]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.09-00.53.02:528][412]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.09-00.53.02:528][412]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.09-00.53.02:528][412]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.09-00.53.02:528][412]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.09-00.53.02:528][412]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.09-00.53.02:528][412]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.09-00.53.02:531][412]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.09-00.53.02:770][412]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VIRTUOSO SE Wireless Gaming Headset)
+[2023.06.09-00.53.02:771][412]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.09-00.53.02:771][412]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.09-00.53.02:771][412]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.09-00.53.02:772][412]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.06.09-00.53.02:772][412]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=4
+[2023.06.09-00.53.02:773][412]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.06.09-00.53.02:774][412]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.06.09-00.53.02:774][412]LogInit: FAudioDevice initialized.
+[2023.06.09-00.53.02:774][412]LogAudio: Display: Audio Device (ID: 4) registered with world 'M_WarehouseWreckage'.
+[2023.06.09-00.53.02:843][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.09-00.53.02:843][412]LogLoad: Game class is 'GameModeBase'
+[2023.06.09-00.53.02:845][412]LogWorld: Bringing World /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage.M_WarehouseWreckage up for play (max tick rate 0) at 2023.06.08-19.53.02
+[2023.06.09-00.53.02:845][412]LogWorld: Bringing up level for play took: 0.001173
+[2023.06.09-00.53.02:848][412]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2023.06.09-00.53.02:848][412]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.06.09-00.53.02:849][412]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=0.000 Y=0.000 Z=0.000
+[2023.06.09-00.53.02:849][412]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(36), CellsToLoad(0), CellsToUnload(0)
+[2023.06.09-00.53.02:849][412]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=0.000 Y=0.000 Z=0.000,P=0.000000 Y=0.000000 R=-0.000000
+[2023.06.09-00.53.02:853][412]LogStreaming: Display: FlushAsyncLoading(-1): 39 QueuedPackages, 0 AsyncPackages
+[2023.06.09-00.53.03:161][412]LogBlueprintUserMessages: [M_WarehouseWreckage_C_2] Hello Player!
+[2023.06.09-00.53.03:162][412]PIE: Server logged in
+[2023.06.09-00.53.03:163][412]PIE: Play in editor total start time 0.706 seconds.
+[2023.06.09-00.53.03:231][412]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.06.09-00.53.05:461][541]LogBlueprintUserMessages: [BP_Projectile_C_0] Blamo!
+[2023.06.09-00.53.08:668][740]LogBlueprintUserMessages: [BP_Projectile_C_1] Blamo!
+[2023.06.09-00.53.10:160][835]LogBlueprintUserMessages: [BP_Projectile_C_2] Blamo!
+[2023.06.09-00.53.10:651][868]LogBlueprintUserMessages: [BP_Projectile_C_3] Blamo!
+[2023.06.09-00.53.12:306][975]LogBlueprintUserMessages: [BP_Projectile_C_4] Blamo!
+[2023.06.09-00.53.12:751][  3]LogBlueprintUserMessages: [BP_Projectile_C_5] Blamo!
+[2023.06.09-00.53.12:991][ 18]LogBlueprintUserMessages: [BP_Projectile_C_6] Blamo!
+[2023.06.09-00.53.15:615][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.09-00.53.15:615][183]LogWorld: BeginTearingDown for /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage
+[2023.06.09-00.53.15:616][183]LogSlate: Window 'U_WarehouseWreckage Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.06.09-00.53.15:650][183]LogWorld: UWorld::CleanupWorld for M_WarehouseWreckage, bSessionEnded=true, bCleanupResources=true
+[2023.06.09-00.53.15:650][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.09-00.53.15:650][183]LogContentBundle: [Container: M_WarehouseWreckage] Deleting container.
+[2023.06.09-00.53.15:655][183]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.09-00.53.15:662][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.09-00.53.15:728][183]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.06.09-00.53.15:730][183]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.06.09-00.53.15:750][183]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.06.09-00.53.15:785][184]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.06.09-00.53.58:622][980]BlueprintLog: New page: Compile M_WarehouseWreckage
+[2023.06.09-00.53.58:756][980]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.06.09-00.53.58:770][980]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-00.53.58:823][980]LogFileHelpers: No new changes to save!
+[2023.06.09-00.53.58:887][980]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.06.09-00.53.58:899][980]LogSavePackage: Moving output files for package: /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage
+[2023.06.09-00.53.58:900][980]LogSavePackage: Moving 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Saved/M_WarehouseWreckageACB725584231633BBC1E4D999B4C32CA.tmp' to 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/Warehouse_Wreckage/Maps/M_WarehouseWreckage.umap'
+[2023.06.09-00.53.58:915][980]LogFileHelpers: Saving map 'M_WarehouseWreckage' took 0.093
+[2023.06.09-00.53.58:924][980]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 1.05 sec)
+[2023.06.09-00.53.58:935][980]AssetCheck: New page: Asset Save: M_WarehouseWreckage
+[2023.06.09-00.53.58:935][980]LogContentValidation: Display: Validating /Script/Engine.World /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage
+[2023.06.09-00.54.00:132][110]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.09-00.54.00:139][110]LogContentBundle: [Container: M_WarehouseWreckage] Generating Streaming for 0 Content Bundles.
+[2023.06.09-00.54.00:141][110]LogWorldPartition: Display: GenerateStreaming started...
+[2023.06.09-00.54.00:141][110]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.06.09-00.54.00:141][110]LogWorldPartition: Display: GetPartitionedActors took 39 us (total: 940 us)
+[2023.06.09-00.54.00:142][110]LogWorldPartition: Display: GenerateStreaming took 901 us (total: 6 ms)
+[2023.06.09-00.54.00:144][110]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.09-00.54.00:144][110]PIE: New page: PIE session: M_WarehouseWreckage (Jun 8, 2023, 2:54:00 PM)
+[2023.06.09-00.54.00:144][110]LogPlayLevel: Creating play world package: /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage
+[2023.06.09-00.54.00:150][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005945s)
+[2023.06.09-00.54.00:150][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage to /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage.M_WarehouseWreckage (0.006026s)
+[2023.06.09-00.54.00:150][110]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.09-00.54.00:151][110]LogAIModule: Creating AISystem for world M_WarehouseWreckage
+[2023.06.09-00.54.00:151][110]LogWorldPartition: ULevel::OnLevelLoaded(M_WarehouseWreckage)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.06.09-00.54.00:151][110]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.06.09-00.54.00:151][110]LogWorldPartition: UWorldPartition::Initialize(Asset=M_WarehouseWreckage, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.06.09-00.54.00:153][110]LogContentBundle: [Container: M_WarehouseWreckage] Creating new contrainer.
+[2023.06.09-00.54.00:153][110]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 3.83 sec)
+[2023.06.09-00.54.00:153][110]LogPlayLevel: PIE: World Init took: (0.002798s)
+[2023.06.09-00.54.00:207][110]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.06.09-00.54.00:208][110]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.06.09-00.54.00:208][110]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.09-00.54.00:208][110]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.09-00.54.00:208][110]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.09-00.54.00:208][110]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.09-00.54.00:208][110]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.09-00.54.00:208][110]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.09-00.54.00:208][110]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.09-00.54.00:208][110]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.09-00.54.00:209][110]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.09-00.54.00:209][110]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.09-00.54.00:209][110]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.09-00.54.00:211][110]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.09-00.54.00:439][110]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VIRTUOSO SE Wireless Gaming Headset)
+[2023.06.09-00.54.00:440][110]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.09-00.54.00:440][110]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.09-00.54.00:440][110]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.09-00.54.00:440][110]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.06.09-00.54.00:440][110]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=5
+[2023.06.09-00.54.00:442][110]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.06.09-00.54.00:442][110]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.06.09-00.54.00:442][110]LogInit: FAudioDevice initialized.
+[2023.06.09-00.54.00:442][110]LogAudio: Display: Audio Device (ID: 5) registered with world 'M_WarehouseWreckage'.
+[2023.06.09-00.54.00:505][110]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.09-00.54.00:505][110]LogLoad: Game class is 'GameModeBase'
+[2023.06.09-00.54.00:507][110]LogWorld: Bringing World /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage.M_WarehouseWreckage up for play (max tick rate 0) at 2023.06.08-19.54.00
+[2023.06.09-00.54.00:507][110]LogWorld: Bringing up level for play took: 0.001819
+[2023.06.09-00.54.00:510][110]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2023.06.09-00.54.00:510][110]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.06.09-00.54.00:511][110]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=0.000 Y=0.000 Z=0.000
+[2023.06.09-00.54.00:511][110]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(36), CellsToLoad(0), CellsToUnload(0)
+[2023.06.09-00.54.00:511][110]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=0.000 Y=0.000 Z=0.000,P=0.000000 Y=0.000000 R=-0.000000
+[2023.06.09-00.54.00:515][110]LogStreaming: Display: FlushAsyncLoading(-1): 39 QueuedPackages, 0 AsyncPackages
+[2023.06.09-00.54.00:813][110]LogBlueprintUserMessages: [M_WarehouseWreckage_C_3] Hello Player!
+[2023.06.09-00.54.00:814][110]PIE: Server logged in
+[2023.06.09-00.54.00:815][110]PIE: Play in editor total start time 0.676 seconds.
+[2023.06.09-00.54.00:878][110]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.06.09-00.54.05:006][349]LogBlueprintUserMessages: [BP_Projectile_C_0] Blamo!
+[2023.06.09-00.54.06:897][466]LogBlueprintUserMessages: [BP_Projectile_C_1] Blamo!
+[2023.06.09-00.54.08:888][587]LogBlueprintUserMessages: [BP_Projectile_C_2] Blamo!
+[2023.06.09-00.54.09:325][615]LogBlueprintUserMessages: [BP_Projectile_C_3] Blamo!
+[2023.06.09-00.54.09:588][632]LogBlueprintUserMessages: [BP_Projectile_C_4] Blamo!
+[2023.06.09-00.54.12:234][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.09-00.54.12:234][797]LogWorld: BeginTearingDown for /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage
+[2023.06.09-00.54.12:235][797]LogSlate: Window 'U_WarehouseWreckage Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.06.09-00.54.12:268][797]LogWorld: UWorld::CleanupWorld for M_WarehouseWreckage, bSessionEnded=true, bCleanupResources=true
+[2023.06.09-00.54.12:268][797]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.09-00.54.12:268][797]LogContentBundle: [Container: M_WarehouseWreckage] Deleting container.
+[2023.06.09-00.54.12:272][797]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.09-00.54.12:281][797]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.09-00.54.12:348][797]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.06.09-00.54.12:350][797]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.06.09-00.54.12:369][797]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.06.09-00.54.12:410][798]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.06.09-00.54.27:074][382]BlueprintLog: New page: Compile M_WarehouseWreckage
+[2023.06.09-00.54.27:208][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.06.09-00.54.27:224][382]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-00.54.27:307][382]LogFileHelpers: No new changes to save!
+[2023.06.09-00.54.27:371][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.06.09-00.54.27:381][382]LogSavePackage: Moving output files for package: /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage
+[2023.06.09-00.54.27:382][382]LogSavePackage: Moving 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Saved/M_WarehouseWreckage2B90CD0D467834E248C9DB82C86C8FD4.tmp' to 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/Warehouse_Wreckage/Maps/M_WarehouseWreckage.umap'
+[2023.06.09-00.54.27:400][382]LogFileHelpers: Saving map 'M_WarehouseWreckage' took 0.093
+[2023.06.09-00.54.27:407][382]LogFileHelpers: InternalPromptForCheckoutAndSave took 183 ms (total: 1.23 sec)
+[2023.06.09-00.54.27:420][382]AssetCheck: New page: Asset Save: M_WarehouseWreckage
+[2023.06.09-00.54.27:420][382]LogContentValidation: Display: Validating /Script/Engine.World /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage
+[2023.06.09-00.54.28:432][492]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.09-00.54.28:439][492]LogContentBundle: [Container: M_WarehouseWreckage] Generating Streaming for 0 Content Bundles.
+[2023.06.09-00.54.28:468][492]LogWorldPartition: Display: GenerateStreaming started...
+[2023.06.09-00.54.28:468][492]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.06.09-00.54.28:468][492]LogWorldPartition: Display: GetPartitionedActors took 39 us (total: 979 us)
+[2023.06.09-00.54.28:469][492]LogWorldPartition: Display: GenerateStreaming took 905 us (total: 7 ms)
+[2023.06.09-00.54.28:469][492]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.09-00.54.28:469][492]PIE: New page: PIE session: M_WarehouseWreckage (Jun 8, 2023, 2:54:28 PM)
+[2023.06.09-00.54.28:470][492]LogPlayLevel: Creating play world package: /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage
+[2023.06.09-00.54.28:475][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005466s)
+[2023.06.09-00.54.28:475][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage to /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage.M_WarehouseWreckage (0.005503s)
+[2023.06.09-00.54.28:475][492]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.09-00.54.28:476][492]LogAIModule: Creating AISystem for world M_WarehouseWreckage
+[2023.06.09-00.54.28:477][492]LogWorldPartition: ULevel::OnLevelLoaded(M_WarehouseWreckage)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.06.09-00.54.28:477][492]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.06.09-00.54.28:477][492]LogWorldPartition: UWorldPartition::Initialize(Asset=M_WarehouseWreckage, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.06.09-00.54.28:479][492]LogContentBundle: [Container: M_WarehouseWreckage] Creating new contrainer.
+[2023.06.09-00.54.28:479][492]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 3.83 sec)
+[2023.06.09-00.54.28:479][492]LogPlayLevel: PIE: World Init took: (0.003809s)
+[2023.06.09-00.54.28:537][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.06.09-00.54.28:538][492]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.06.09-00.54.28:538][492]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.09-00.54.28:538][492]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.09-00.54.28:538][492]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.09-00.54.28:538][492]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.09-00.54.28:538][492]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.09-00.54.28:538][492]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.09-00.54.28:538][492]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.09-00.54.28:538][492]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.09-00.54.28:539][492]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.09-00.54.28:539][492]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.09-00.54.28:539][492]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.09-00.54.28:541][492]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.09-00.54.28:782][492]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VIRTUOSO SE Wireless Gaming Headset)
+[2023.06.09-00.54.28:783][492]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.09-00.54.28:783][492]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.09-00.54.28:783][492]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.09-00.54.28:785][492]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.06.09-00.54.28:785][492]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=6
+[2023.06.09-00.54.28:787][492]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.06.09-00.54.28:787][492]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.06.09-00.54.28:787][492]LogInit: FAudioDevice initialized.
+[2023.06.09-00.54.28:787][492]LogAudio: Display: Audio Device (ID: 6) registered with world 'M_WarehouseWreckage'.
+[2023.06.09-00.54.28:838][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.09-00.54.28:838][492]LogLoad: Game class is 'GameModeBase'
+[2023.06.09-00.54.28:839][492]LogWorld: Bringing World /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage.M_WarehouseWreckage up for play (max tick rate 0) at 2023.06.08-19.54.28
+[2023.06.09-00.54.28:839][492]LogWorld: Bringing up level for play took: 0.001073
+[2023.06.09-00.54.28:842][492]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2023.06.09-00.54.28:842][492]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.06.09-00.54.28:843][492]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=0.000 Y=0.000 Z=0.000
+[2023.06.09-00.54.28:843][492]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(36), CellsToLoad(0), CellsToUnload(0)
+[2023.06.09-00.54.28:843][492]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=0.000 Y=0.000 Z=0.000,P=0.000000 Y=0.000000 R=-0.000000
+[2023.06.09-00.54.28:847][492]LogStreaming: Display: FlushAsyncLoading(-1): 39 QueuedPackages, 0 AsyncPackages
+[2023.06.09-00.54.29:153][492]LogBlueprintUserMessages: [M_WarehouseWreckage_C_4] Hello Player!
+[2023.06.09-00.54.29:154][492]PIE: Server logged in
+[2023.06.09-00.54.29:155][492]PIE: Play in editor total start time 0.716 seconds.
+[2023.06.09-00.54.29:225][492]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.06.09-00.54.30:802][576]LogStreaming: Warning: Detected 32 objects loaded in PostLoad while streaming, this may cause hitches as we're blocking async loading to pre-load them.
+[2023.06.09-00.54.33:403][742]LogBlueprintUserMessages: [BP_Projectile_C_0] Blamo!
+[2023.06.09-00.54.34:990][843]LogBlueprintUserMessages: [BP_Projectile_C_1] Blamo!
+[2023.06.09-00.54.36:639][950]LogBlueprintUserMessages: [BP_Projectile_C_2] Blamo!
+[2023.06.09-00.54.37:130][982]LogBlueprintUserMessages: [BP_Projectile_C_3] Blamo!
+[2023.06.09-00.54.37:510][  7]LogBlueprintUserMessages: [BP_Projectile_C_4] Blamo!
+[2023.06.09-00.54.38:884][ 91]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.09-00.54.38:884][ 91]LogWorld: BeginTearingDown for /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage
+[2023.06.09-00.54.38:885][ 91]LogSlate: Window 'U_WarehouseWreckage Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.06.09-00.54.38:914][ 91]LogWorld: UWorld::CleanupWorld for M_WarehouseWreckage, bSessionEnded=true, bCleanupResources=true
+[2023.06.09-00.54.38:914][ 91]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.09-00.54.38:915][ 91]LogContentBundle: [Container: M_WarehouseWreckage] Deleting container.
+[2023.06.09-00.54.38:919][ 91]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.09-00.54.38:927][ 91]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.09-00.54.38:991][ 91]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.06.09-00.54.38:993][ 91]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.06.09-00.54.39:013][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.06.09-00.54.39:055][ 92]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.06.09-00.54.46:618][965]BlueprintLog: New page: Compile M_WarehouseWreckage
+[2023.06.09-00.54.46:771][965]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.06.09-00.54.46:784][965]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-00.54.46:841][965]LogFileHelpers: No new changes to save!
+[2023.06.09-00.54.46:902][965]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.06.09-00.54.46:912][965]LogSavePackage: Moving output files for package: /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage
+[2023.06.09-00.54.46:913][965]LogSavePackage: Moving 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Saved/M_WarehouseWreckageFE455D8A457E6190ABBD528341F9CFD1.tmp' to 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/Warehouse_Wreckage/Maps/M_WarehouseWreckage.umap'
+[2023.06.09-00.54.46:928][965]LogFileHelpers: Saving map 'M_WarehouseWreckage' took 0.087
+[2023.06.09-00.54.46:936][965]LogFileHelpers: InternalPromptForCheckoutAndSave took 151 ms (total: 1.39 sec)
+[2023.06.09-00.54.46:945][965]AssetCheck: New page: Asset Save: M_WarehouseWreckage
+[2023.06.09-00.54.46:945][965]LogContentValidation: Display: Validating /Script/Engine.World /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage
+[2023.06.09-00.55.01:004][737]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.09-00.55.01:011][737]LogContentBundle: [Container: M_WarehouseWreckage] Generating Streaming for 0 Content Bundles.
+[2023.06.09-00.55.01:013][737]LogWorldPartition: Display: GenerateStreaming started...
+[2023.06.09-00.55.01:013][737]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.06.09-00.55.01:013][737]LogWorldPartition: Display: GetPartitionedActors took 36 us (total: 1 ms)
+[2023.06.09-00.55.01:014][737]LogWorldPartition: Display: GenerateStreaming took 1 ms (total: 8 ms)
+[2023.06.09-00.55.01:015][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.09-00.55.01:015][737]PIE: New page: PIE session: M_WarehouseWreckage (Jun 8, 2023, 2:55:01 PM)
+[2023.06.09-00.55.01:015][737]LogPlayLevel: Creating play world package: /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage
+[2023.06.09-00.55.01:021][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005823s)
+[2023.06.09-00.55.01:021][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage to /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage.M_WarehouseWreckage (0.005854s)
+[2023.06.09-00.55.01:021][737]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.09-00.55.01:022][737]LogAIModule: Creating AISystem for world M_WarehouseWreckage
+[2023.06.09-00.55.01:022][737]LogWorldPartition: ULevel::OnLevelLoaded(M_WarehouseWreckage)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.06.09-00.55.01:022][737]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.06.09-00.55.01:022][737]LogWorldPartition: UWorldPartition::Initialize(Asset=M_WarehouseWreckage, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.06.09-00.55.01:024][737]LogContentBundle: [Container: M_WarehouseWreckage] Creating new contrainer.
+[2023.06.09-00.55.01:024][737]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 3.83 sec)
+[2023.06.09-00.55.01:024][737]LogPlayLevel: PIE: World Init took: (0.003043s)
+[2023.06.09-00.55.01:083][737]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.06.09-00.55.01:084][737]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.06.09-00.55.01:084][737]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.09-00.55.01:084][737]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.09-00.55.01:084][737]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.09-00.55.01:084][737]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.09-00.55.01:084][737]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.09-00.55.01:084][737]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.09-00.55.01:084][737]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.09-00.55.01:084][737]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.09-00.55.01:084][737]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.09-00.55.01:084][737]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.09-00.55.01:084][737]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.09-00.55.01:086][737]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.09-00.55.01:341][737]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VIRTUOSO SE Wireless Gaming Headset)
+[2023.06.09-00.55.01:341][737]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.09-00.55.01:342][737]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.09-00.55.01:342][737]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.09-00.55.01:343][737]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.06.09-00.55.01:343][737]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=7
+[2023.06.09-00.55.01:345][737]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.06.09-00.55.01:345][737]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.06.09-00.55.01:345][737]LogInit: FAudioDevice initialized.
+[2023.06.09-00.55.01:345][737]LogAudio: Display: Audio Device (ID: 7) registered with world 'M_WarehouseWreckage'.
+[2023.06.09-00.55.01:406][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.09-00.55.01:407][737]LogLoad: Game class is 'GameModeBase'
+[2023.06.09-00.55.01:407][737]LogWorld: Bringing World /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage.M_WarehouseWreckage up for play (max tick rate 0) at 2023.06.08-19.55.01
+[2023.06.09-00.55.01:407][737]LogWorld: Bringing up level for play took: 0.000702
+[2023.06.09-00.55.01:410][737]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2023.06.09-00.55.01:410][737]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.06.09-00.55.01:412][737]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=0.000 Y=0.000 Z=0.000
+[2023.06.09-00.55.01:412][737]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(36), CellsToLoad(0), CellsToUnload(0)
+[2023.06.09-00.55.01:412][737]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=0.000 Y=0.000 Z=0.000,P=0.000000 Y=0.000000 R=-0.000000
+[2023.06.09-00.55.01:416][737]LogStreaming: Display: FlushAsyncLoading(-1): 39 QueuedPackages, 0 AsyncPackages
+[2023.06.09-00.55.01:704][737]LogBlueprintUserMessages: [M_WarehouseWreckage_C_5] Hello Player!
+[2023.06.09-00.55.01:706][737]PIE: Server logged in
+[2023.06.09-00.55.01:706][737]PIE: Play in editor total start time 0.695 seconds.
+[2023.06.09-00.55.01:768][737]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.06.09-00.55.03:309][820]LogStreaming: Warning: Detected 37 objects loaded in PostLoad while streaming, this may cause hitches as we're blocking async loading to pre-load them.
+[2023.06.09-00.55.05:688][974]LogBlueprintUserMessages: [BP_Projectile_C_0] Blamo!
+[2023.06.09-00.55.06:889][ 52]LogBlueprintUserMessages: [BP_Projectile_C_1] Blamo!
+[2023.06.09-00.55.07:709][105]LogBlueprintUserMessages: [BP_Projectile_C_2] Blamo!
+[2023.06.09-00.55.07:951][121]LogBlueprintUserMessages: [BP_Projectile_C_3] Blamo!
+[2023.06.09-00.55.08:120][132]LogBlueprintUserMessages: [BP_Projectile_C_4] Blamo!
+[2023.06.09-00.55.08:281][142]LogBlueprintUserMessages: [BP_Projectile_C_5] Blamo!
+[2023.06.09-00.55.08:500][154]LogBlueprintUserMessages: [BP_Projectile_C_6] Blamo!
+[2023.06.09-00.55.10:071][257]LogBlueprintUserMessages: [BP_Projectile_C_7] Blamo!
+[2023.06.09-00.55.11:444][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.09-00.55.11:444][345]LogWorld: BeginTearingDown for /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage
+[2023.06.09-00.55.11:445][345]LogSlate: Window 'U_WarehouseWreckage Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.06.09-00.55.11:475][345]LogWorld: UWorld::CleanupWorld for M_WarehouseWreckage, bSessionEnded=true, bCleanupResources=true
+[2023.06.09-00.55.11:475][345]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.09-00.55.11:475][345]LogContentBundle: [Container: M_WarehouseWreckage] Deleting container.
+[2023.06.09-00.55.11:480][345]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.09-00.55.11:487][345]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.09-00.55.11:553][345]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.06.09-00.55.11:555][345]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.06.09-00.55.11:574][345]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2023.06.09-00.55.11:614][346]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.06.09-00.55.17:588][ 17]BlueprintLog: New page: Compile M_WarehouseWreckage
+[2023.06.09-00.55.17:718][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.06.09-00.55.17:731][ 17]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-00.55.17:788][ 17]LogFileHelpers: No new changes to save!
+[2023.06.09-00.55.17:852][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.06.09-00.55.17:862][ 17]LogSavePackage: Moving output files for package: /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage
+[2023.06.09-00.55.17:863][ 17]LogSavePackage: Moving 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Saved/M_WarehouseWreckageD4F138FA4FE3319369CCC0A8CD2AE80A.tmp' to 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/Warehouse_Wreckage/Maps/M_WarehouseWreckage.umap'
+[2023.06.09-00.55.17:878][ 17]LogFileHelpers: Saving map 'M_WarehouseWreckage' took 0.090
+[2023.06.09-00.55.17:885][ 17]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 1.54 sec)
+[2023.06.09-00.55.17:895][ 17]AssetCheck: New page: Asset Save: M_WarehouseWreckage
+[2023.06.09-00.55.17:895][ 17]LogContentValidation: Display: Validating /Script/Engine.World /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage
+[2023.06.09-00.55.19:189][159]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.09-00.55.19:198][159]LogContentBundle: [Container: M_WarehouseWreckage] Generating Streaming for 0 Content Bundles.
+[2023.06.09-00.55.19:200][159]LogWorldPartition: Display: GenerateStreaming started...
+[2023.06.09-00.55.19:200][159]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.06.09-00.55.19:200][159]LogWorldPartition: Display: GetPartitionedActors took 36 us (total: 1 ms)
+[2023.06.09-00.55.19:201][159]LogWorldPartition: Display: GenerateStreaming took 919 us (total: 9 ms)
+[2023.06.09-00.55.19:202][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.09-00.55.19:202][159]PIE: New page: PIE session: M_WarehouseWreckage (Jun 8, 2023, 2:55:19 PM)
+[2023.06.09-00.55.19:202][159]LogPlayLevel: Creating play world package: /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage
+[2023.06.09-00.55.19:208][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005832s)
+[2023.06.09-00.55.19:208][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage to /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage.M_WarehouseWreckage (0.005866s)
+[2023.06.09-00.55.19:208][159]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.09-00.55.19:209][159]LogAIModule: Creating AISystem for world M_WarehouseWreckage
+[2023.06.09-00.55.19:209][159]LogWorldPartition: ULevel::OnLevelLoaded(M_WarehouseWreckage)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.06.09-00.55.19:209][159]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.06.09-00.55.19:210][159]LogWorldPartition: UWorldPartition::Initialize(Asset=M_WarehouseWreckage, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.06.09-00.55.19:211][159]LogContentBundle: [Container: M_WarehouseWreckage] Creating new contrainer.
+[2023.06.09-00.55.19:211][159]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 3.84 sec)
+[2023.06.09-00.55.19:212][159]LogPlayLevel: PIE: World Init took: (0.003442s)
+[2023.06.09-00.55.19:270][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.06.09-00.55.19:271][159]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.06.09-00.55.19:271][159]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.09-00.55.19:271][159]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.09-00.55.19:271][159]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.09-00.55.19:271][159]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.09-00.55.19:271][159]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.09-00.55.19:271][159]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.09-00.55.19:271][159]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.09-00.55.19:271][159]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.09-00.55.19:272][159]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.09-00.55.19:272][159]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.09-00.55.19:272][159]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.09-00.55.19:274][159]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.09-00.55.19:501][159]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VIRTUOSO SE Wireless Gaming Headset)
+[2023.06.09-00.55.19:502][159]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.09-00.55.19:502][159]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.09-00.55.19:502][159]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.09-00.55.19:503][159]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.06.09-00.55.19:503][159]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=8
+[2023.06.09-00.55.19:505][159]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.06.09-00.55.19:505][159]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.06.09-00.55.19:505][159]LogInit: FAudioDevice initialized.
+[2023.06.09-00.55.19:505][159]LogAudio: Display: Audio Device (ID: 8) registered with world 'M_WarehouseWreckage'.
+[2023.06.09-00.55.19:556][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.09-00.55.19:556][159]LogLoad: Game class is 'GameModeBase'
+[2023.06.09-00.55.19:557][159]LogWorld: Bringing World /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage.M_WarehouseWreckage up for play (max tick rate 0) at 2023.06.08-19.55.19
+[2023.06.09-00.55.19:557][159]LogWorld: Bringing up level for play took: 0.000850
+[2023.06.09-00.55.19:560][159]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2023.06.09-00.55.19:560][159]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.06.09-00.55.19:561][159]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=0.000 Y=0.000 Z=0.000
+[2023.06.09-00.55.19:561][159]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(36), CellsToLoad(0), CellsToUnload(0)
+[2023.06.09-00.55.19:561][159]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=0.000 Y=0.000 Z=0.000,P=0.000000 Y=0.000000 R=-0.000000
+[2023.06.09-00.55.19:565][159]LogStreaming: Display: FlushAsyncLoading(-1): 39 QueuedPackages, 0 AsyncPackages
+[2023.06.09-00.55.19:868][159]LogBlueprintUserMessages: [M_WarehouseWreckage_C_6] Hello Player!
+[2023.06.09-00.55.19:869][159]PIE: Server logged in
+[2023.06.09-00.55.19:870][159]PIE: Play in editor total start time 0.672 seconds.
+[2023.06.09-00.55.19:928][159]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.06.09-00.55.24:027][406]LogBlueprintUserMessages: [BP_Projectile_C_0] Blamo!
+[2023.06.09-00.55.28:191][651]LogBlueprintUserMessages: [BP_Projectile_C_1] Blamo!
+[2023.06.09-00.55.30:854][807]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.09-00.55.30:854][807]LogWorld: BeginTearingDown for /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage
+[2023.06.09-00.55.30:855][807]LogSlate: Window 'U_WarehouseWreckage Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.06.09-00.55.30:887][807]LogWorld: UWorld::CleanupWorld for M_WarehouseWreckage, bSessionEnded=true, bCleanupResources=true
+[2023.06.09-00.55.30:887][807]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.09-00.55.30:887][807]LogContentBundle: [Container: M_WarehouseWreckage] Deleting container.
+[2023.06.09-00.55.30:891][807]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.09-00.55.30:900][807]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.09-00.55.30:967][807]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.06.09-00.55.30:970][807]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.06.09-00.55.31:016][807]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2023.06.09-00.55.31:055][808]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2023.06.09-00.55.35:877][320]BlueprintLog: New page: Compile M_WarehouseWreckage
+[2023.06.09-00.55.36:007][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.06.09-00.55.36:020][320]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-00.55.36:075][320]LogFileHelpers: No new changes to save!
+[2023.06.09-00.55.36:137][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.06.09-00.55.36:147][320]LogSavePackage: Moving output files for package: /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage
+[2023.06.09-00.55.36:148][320]LogSavePackage: Moving 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Saved/M_WarehouseWreckage34E1C6CE4A4568A3ADADA5AF06D047D5.tmp' to 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/Warehouse_Wreckage/Maps/M_WarehouseWreckage.umap'
+[2023.06.09-00.55.36:168][320]LogFileHelpers: Saving map 'M_WarehouseWreckage' took 0.094
+[2023.06.09-00.55.36:177][320]LogFileHelpers: InternalPromptForCheckoutAndSave took 156 ms (total: 1.70 sec)
+[2023.06.09-00.55.36:185][320]AssetCheck: New page: Asset Save: M_WarehouseWreckage
+[2023.06.09-00.55.36:185][320]LogContentValidation: Display: Validating /Script/Engine.World /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage
+[2023.06.09-00.55.37:800][510]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.09-00.55.37:807][510]LogContentBundle: [Container: M_WarehouseWreckage] Generating Streaming for 0 Content Bundles.
+[2023.06.09-00.55.37:810][510]LogWorldPartition: Display: GenerateStreaming started...
+[2023.06.09-00.55.37:810][510]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.06.09-00.55.37:810][510]LogWorldPartition: Display: GetPartitionedActors took 94 us (total: 1 ms)
+[2023.06.09-00.55.37:811][510]LogWorldPartition: Display: GenerateStreaming took 1 ms (total: 10 ms)
+[2023.06.09-00.55.37:812][510]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.09-00.55.37:812][510]PIE: New page: PIE session: M_WarehouseWreckage (Jun 8, 2023, 2:55:37 PM)
+[2023.06.09-00.55.37:812][510]LogPlayLevel: Creating play world package: /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage
+[2023.06.09-00.55.37:818][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005648s)
+[2023.06.09-00.55.37:818][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage to /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage.M_WarehouseWreckage (0.005681s)
+[2023.06.09-00.55.37:818][510]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.09-00.55.37:818][510]LogAIModule: Creating AISystem for world M_WarehouseWreckage
+[2023.06.09-00.55.37:819][510]LogWorldPartition: ULevel::OnLevelLoaded(M_WarehouseWreckage)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.06.09-00.55.37:819][510]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.06.09-00.55.37:819][510]LogWorldPartition: UWorldPartition::Initialize(Asset=M_WarehouseWreckage, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.06.09-00.55.37:820][510]LogContentBundle: [Container: M_WarehouseWreckage] Creating new contrainer.
+[2023.06.09-00.55.37:821][510]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 3.84 sec)
+[2023.06.09-00.55.37:821][510]LogPlayLevel: PIE: World Init took: (0.002792s)
+[2023.06.09-00.55.37:878][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.06.09-00.55.37:879][510]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.06.09-00.55.37:879][510]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.09-00.55.37:879][510]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.09-00.55.37:879][510]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.09-00.55.37:879][510]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.09-00.55.37:879][510]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.09-00.55.37:879][510]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.09-00.55.37:879][510]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.09-00.55.37:879][510]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.09-00.55.37:880][510]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.09-00.55.37:880][510]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.09-00.55.37:880][510]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.09-00.55.37:882][510]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.09-00.55.38:120][510]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VIRTUOSO SE Wireless Gaming Headset)
+[2023.06.09-00.55.38:121][510]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.09-00.55.38:121][510]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.09-00.55.38:121][510]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.09-00.55.38:122][510]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.06.09-00.55.38:122][510]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=9
+[2023.06.09-00.55.38:123][510]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.06.09-00.55.38:123][510]LogInit: FAudioDevice initialized.
+[2023.06.09-00.55.38:123][510]LogAudio: Display: Audio Device (ID: 9) registered with world 'M_WarehouseWreckage'.
+[2023.06.09-00.55.38:124][510]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.06.09-00.55.38:189][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.09-00.55.38:190][510]LogLoad: Game class is 'GameModeBase'
+[2023.06.09-00.55.38:191][510]LogWorld: Bringing World /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage.M_WarehouseWreckage up for play (max tick rate 0) at 2023.06.08-19.55.38
+[2023.06.09-00.55.38:191][510]LogWorld: Bringing up level for play took: 0.001099
+[2023.06.09-00.55.38:195][510]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2023.06.09-00.55.38:196][510]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.06.09-00.55.38:196][510]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=0.000 Y=0.000 Z=0.000
+[2023.06.09-00.55.38:196][510]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(36), CellsToLoad(0), CellsToUnload(0)
+[2023.06.09-00.55.38:196][510]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=0.000 Y=0.000 Z=0.000,P=0.000000 Y=0.000000 R=-0.000000
+[2023.06.09-00.55.38:200][510]LogStreaming: Display: FlushAsyncLoading(-1): 39 QueuedPackages, 0 AsyncPackages
+[2023.06.09-00.55.38:491][510]LogBlueprintUserMessages: [M_WarehouseWreckage_C_7] Hello Player!
+[2023.06.09-00.55.38:492][510]PIE: Server logged in
+[2023.06.09-00.55.38:493][510]PIE: Play in editor total start time 0.686 seconds.
+[2023.06.09-00.55.38:551][510]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.06.09-00.55.41:422][678]LogBlueprintUserMessages: [BP_Projectile_C_0] Blamo!
+[2023.06.09-00.55.42:794][763]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.09-00.55.42:794][763]LogWorld: BeginTearingDown for /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage
+[2023.06.09-00.55.42:796][763]LogSlate: Window 'U_WarehouseWreckage Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.06.09-00.55.42:846][763]LogWorld: UWorld::CleanupWorld for M_WarehouseWreckage, bSessionEnded=true, bCleanupResources=true
+[2023.06.09-00.55.42:847][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.09-00.55.42:847][763]LogContentBundle: [Container: M_WarehouseWreckage] Deleting container.
+[2023.06.09-00.55.42:851][763]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.09-00.55.42:859][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.09-00.55.42:927][763]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.06.09-00.55.42:928][763]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.06.09-00.55.42:946][763]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2023.06.09-00.55.42:990][764]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2023.06.09-00.55.50:558][592]BlueprintLog: New page: Compile M_WarehouseWreckage
+[2023.06.09-00.55.50:695][592]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.06.09-00.55.50:708][592]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-00.55.50:774][592]LogFileHelpers: No new changes to save!
+[2023.06.09-00.55.50:838][592]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.06.09-00.55.50:849][592]LogSavePackage: Moving output files for package: /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage
+[2023.06.09-00.55.50:850][592]LogSavePackage: Moving 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Saved/M_WarehouseWreckage423652A0418D4F015366BB8D67EEEA1B.tmp' to 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/Warehouse_Wreckage/Maps/M_WarehouseWreckage.umap'
+[2023.06.09-00.55.50:865][592]LogFileHelpers: Saving map 'M_WarehouseWreckage' took 0.092
+[2023.06.09-00.55.50:875][592]LogFileHelpers: InternalPromptForCheckoutAndSave took 165 ms (total: 1.86 sec)
+[2023.06.09-00.55.50:882][592]AssetCheck: New page: Asset Save: M_WarehouseWreckage
+[2023.06.09-00.55.50:882][592]LogContentValidation: Display: Validating /Script/Engine.World /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage
+[2023.06.09-00.55.51:988][720]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.09-00.55.51:995][720]LogContentBundle: [Container: M_WarehouseWreckage] Generating Streaming for 0 Content Bundles.
+[2023.06.09-00.55.52:013][720]LogWorldPartition: Display: GenerateStreaming started...
+[2023.06.09-00.55.52:013][720]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.06.09-00.55.52:013][720]LogWorldPartition: Display: GetPartitionedActors took 62 us (total: 1 ms)
+[2023.06.09-00.55.52:014][720]LogWorldPartition: Display: GenerateStreaming took 1 ms (total: 11 ms)
+[2023.06.09-00.55.52:015][720]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.09-00.55.52:015][720]PIE: New page: PIE session: M_WarehouseWreckage (Jun 8, 2023, 2:55:52 PM)
+[2023.06.09-00.55.52:015][720]LogPlayLevel: Creating play world package: /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage
+[2023.06.09-00.55.52:021][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005418s)
+[2023.06.09-00.55.52:021][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage to /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage.M_WarehouseWreckage (0.005449s)
+[2023.06.09-00.55.52:021][720]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.09-00.55.52:021][720]LogAIModule: Creating AISystem for world M_WarehouseWreckage
+[2023.06.09-00.55.52:022][720]LogWorldPartition: ULevel::OnLevelLoaded(M_WarehouseWreckage)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.06.09-00.55.52:022][720]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.06.09-00.55.52:022][720]LogWorldPartition: UWorldPartition::Initialize(Asset=M_WarehouseWreckage, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.06.09-00.55.52:024][720]LogContentBundle: [Container: M_WarehouseWreckage] Creating new contrainer.
+[2023.06.09-00.55.52:024][720]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 3.84 sec)
+[2023.06.09-00.55.52:024][720]LogPlayLevel: PIE: World Init took: (0.003037s)
+[2023.06.09-00.55.52:085][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.06.09-00.55.52:086][720]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.06.09-00.55.52:086][720]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.09-00.55.52:086][720]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.09-00.55.52:086][720]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.09-00.55.52:086][720]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.09-00.55.52:086][720]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.09-00.55.52:086][720]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.09-00.55.52:086][720]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.09-00.55.52:086][720]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.09-00.55.52:087][720]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.09-00.55.52:087][720]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.09-00.55.52:087][720]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.09-00.55.52:089][720]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.09-00.55.52:373][720]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VIRTUOSO SE Wireless Gaming Headset)
+[2023.06.09-00.55.52:373][720]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.09-00.55.52:373][720]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.09-00.55.52:373][720]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.09-00.55.52:374][720]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.06.09-00.55.52:374][720]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=10
+[2023.06.09-00.55.52:376][720]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.06.09-00.55.52:376][720]LogInit: FAudioDevice initialized.
+[2023.06.09-00.55.52:376][720]LogAudio: Display: Audio Device (ID: 10) registered with world 'M_WarehouseWreckage'.
+[2023.06.09-00.55.52:377][720]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.06.09-00.55.52:438][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.09-00.55.52:439][720]LogLoad: Game class is 'GameModeBase'
+[2023.06.09-00.55.52:439][720]LogWorld: Bringing World /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage.M_WarehouseWreckage up for play (max tick rate 0) at 2023.06.08-19.55.52
+[2023.06.09-00.55.52:439][720]LogWorld: Bringing up level for play took: 0.000785
+[2023.06.09-00.55.52:445][720]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2023.06.09-00.55.52:445][720]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.06.09-00.55.52:445][720]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=0.000 Y=0.000 Z=0.000
+[2023.06.09-00.55.52:445][720]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(36), CellsToLoad(0), CellsToUnload(0)
+[2023.06.09-00.55.52:445][720]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=0.000 Y=0.000 Z=0.000,P=0.000000 Y=0.000000 R=-0.000000
+[2023.06.09-00.55.52:447][720]LogStreaming: Display: FlushAsyncLoading(-1): 39 QueuedPackages, 0 AsyncPackages
+[2023.06.09-00.55.52:742][720]LogBlueprintUserMessages: [M_WarehouseWreckage_C_8] Hello Player!
+[2023.06.09-00.55.52:743][720]PIE: Server logged in
+[2023.06.09-00.55.52:745][720]PIE: Play in editor total start time 0.749 seconds.
+[2023.06.09-00.55.52:807][720]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.06.09-00.55.55:794][897]LogBlueprintUserMessages: [BP_Projectile_C_0] Blamo!
+[2023.06.09-00.55.58:022][ 40]LogBlueprintUserMessages: [BP_Projectile_C_1] Blamo!
+[2023.06.09-00.55.58:461][ 68]LogBlueprintUserMessages: [BP_Projectile_C_2] Blamo!
+[2023.06.09-00.55.58:660][ 81]LogBlueprintUserMessages: [BP_Projectile_C_3] Blamo!
+[2023.06.09-00.55.58:802][ 90]LogBlueprintUserMessages: [BP_Projectile_C_4] Blamo!
+[2023.06.09-00.55.58:957][100]LogBlueprintUserMessages: [BP_Projectile_C_5] Blamo!
+[2023.06.09-00.55.59:118][110]LogBlueprintUserMessages: [BP_Projectile_C_6] Blamo!
+[2023.06.09-00.55.59:268][119]LogBlueprintUserMessages: [BP_Projectile_C_7] Blamo!
+[2023.06.09-00.55.59:391][127]LogBlueprintUserMessages: [BP_Projectile_C_8] Blamo!
+[2023.06.09-00.55.59:557][137]LogBlueprintUserMessages: [BP_Projectile_C_9] Blamo!
+[2023.06.09-00.55.59:799][150]LogBlueprintUserMessages: [BP_Projectile_C_10] Blamo!
+[2023.06.09-00.55.59:859][153]LogBlueprintUserMessages: [BP_Projectile_C_11] Blamo!
+[2023.06.09-00.56.00:061][165]LogBlueprintUserMessages: [BP_Projectile_C_12] Blamo!
+[2023.06.09-00.56.00:211][174]LogBlueprintUserMessages: [BP_Projectile_C_13] Blamo!
+[2023.06.09-00.56.00:425][187]LogBlueprintUserMessages: [BP_Projectile_C_14] Blamo!
+[2023.06.09-00.56.01:617][257]LogBlueprintUserMessages: [BP_Projectile_C_15] Blamo!
+[2023.06.09-00.56.03:292][357]LogBlueprintUserMessages: [BP_Projectile_C_16] Blamo!
+[2023.06.09-00.56.03:859][391]LogBlueprintUserMessages: [BP_Projectile_C_17] Blamo!
+[2023.06.09-00.56.04:137][407]LogBlueprintUserMessages: [BP_Projectile_C_18] Blamo!
+[2023.06.09-00.56.04:394][422]LogBlueprintUserMessages: [BP_Projectile_C_19] Blamo!
+[2023.06.09-00.56.04:612][435]LogBlueprintUserMessages: [BP_Projectile_C_20] Blamo!
+[2023.06.09-00.56.04:820][447]LogBlueprintUserMessages: [BP_Projectile_C_21] Blamo!
+[2023.06.09-00.56.05:041][460]LogBlueprintUserMessages: [BP_Projectile_C_22] Blamo!
+[2023.06.09-00.56.05:250][471]LogBlueprintUserMessages: [BP_Projectile_C_23] Blamo!
+[2023.06.09-00.56.05:445][482]LogBlueprintUserMessages: [BP_Projectile_C_24] Blamo!
+[2023.06.09-00.56.05:649][494]LogBlueprintUserMessages: [BP_Projectile_C_25] Blamo!
+[2023.06.09-00.56.05:855][506]LogBlueprintUserMessages: [BP_Projectile_C_26] Blamo!
+[2023.06.09-00.56.07:934][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.09-00.56.07:934][628]LogWorld: BeginTearingDown for /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage
+[2023.06.09-00.56.07:935][628]LogSlate: Window 'U_WarehouseWreckage Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.06.09-00.56.07:972][628]LogWorld: UWorld::CleanupWorld for M_WarehouseWreckage, bSessionEnded=true, bCleanupResources=true
+[2023.06.09-00.56.07:973][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.09-00.56.07:973][628]LogContentBundle: [Container: M_WarehouseWreckage] Deleting container.
+[2023.06.09-00.56.07:979][628]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.09-00.56.07:988][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.09-00.56.08:060][628]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.06.09-00.56.08:063][628]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.06.09-00.56.08:083][628]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.06.09-00.56.08:122][629]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2023.06.09-00.56.11:988][ 53]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.09-00.56.11:996][ 53]LogContentBundle: [Container: M_WarehouseWreckage] Generating Streaming for 0 Content Bundles.
+[2023.06.09-00.56.12:012][ 53]LogWorldPartition: Display: GenerateStreaming started...
+[2023.06.09-00.56.12:013][ 53]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.06.09-00.56.12:013][ 53]LogWorldPartition: Display: GetPartitionedActors took 177 us (total: 1 ms)
+[2023.06.09-00.56.12:014][ 53]LogWorldPartition: Display: GenerateStreaming took 1 ms (total: 12 ms)
+[2023.06.09-00.56.12:014][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.09-00.56.12:015][ 53]PIE: New page: PIE session: M_WarehouseWreckage (Jun 8, 2023, 2:56:12 PM)
+[2023.06.09-00.56.12:015][ 53]LogPlayLevel: Creating play world package: /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage
+[2023.06.09-00.56.12:020][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005777s)
+[2023.06.09-00.56.12:021][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage to /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage.M_WarehouseWreckage (0.005809s)
+[2023.06.09-00.56.12:021][ 53]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.09-00.56.12:021][ 53]LogAIModule: Creating AISystem for world M_WarehouseWreckage
+[2023.06.09-00.56.12:021][ 53]LogWorldPartition: ULevel::OnLevelLoaded(M_WarehouseWreckage)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.06.09-00.56.12:022][ 53]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.06.09-00.56.12:022][ 53]LogWorldPartition: UWorldPartition::Initialize(Asset=M_WarehouseWreckage, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.06.09-00.56.12:023][ 53]LogContentBundle: [Container: M_WarehouseWreckage] Creating new contrainer.
+[2023.06.09-00.56.12:023][ 53]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 3.84 sec)
+[2023.06.09-00.56.12:023][ 53]LogPlayLevel: PIE: World Init took: (0.002781s)
+[2023.06.09-00.56.12:084][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.06.09-00.56.12:085][ 53]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.06.09-00.56.12:085][ 53]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.09-00.56.12:085][ 53]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.09-00.56.12:085][ 53]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.09-00.56.12:085][ 53]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.09-00.56.12:085][ 53]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.09-00.56.12:085][ 53]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.09-00.56.12:085][ 53]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.09-00.56.12:085][ 53]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.09-00.56.12:085][ 53]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.09-00.56.12:085][ 53]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.09-00.56.12:085][ 53]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.09-00.56.12:088][ 53]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.09-00.56.12:324][ 53]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VIRTUOSO SE Wireless Gaming Headset)
+[2023.06.09-00.56.12:324][ 53]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.09-00.56.12:324][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.09-00.56.12:324][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.09-00.56.12:325][ 53]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.06.09-00.56.12:325][ 53]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=11
+[2023.06.09-00.56.12:327][ 53]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.06.09-00.56.12:327][ 53]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.06.09-00.56.12:327][ 53]LogInit: FAudioDevice initialized.
+[2023.06.09-00.56.12:327][ 53]LogAudio: Display: Audio Device (ID: 11) registered with world 'M_WarehouseWreckage'.
+[2023.06.09-00.56.12:395][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.09-00.56.12:395][ 53]LogLoad: Game class is 'GameModeBase'
+[2023.06.09-00.56.12:396][ 53]LogWorld: Bringing World /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage.M_WarehouseWreckage up for play (max tick rate 0) at 2023.06.08-19.56.12
+[2023.06.09-00.56.12:396][ 53]LogWorld: Bringing up level for play took: 0.000651
+[2023.06.09-00.56.12:400][ 53]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2023.06.09-00.56.12:400][ 53]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.06.09-00.56.12:401][ 53]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=0.000 Y=0.000 Z=0.000
+[2023.06.09-00.56.12:401][ 53]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(36), CellsToLoad(0), CellsToUnload(0)
+[2023.06.09-00.56.12:401][ 53]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=0.000 Y=0.000 Z=0.000,P=0.000000 Y=0.000000 R=-0.000000
+[2023.06.09-00.56.12:404][ 53]LogStreaming: Display: FlushAsyncLoading(-1): 39 QueuedPackages, 0 AsyncPackages
+[2023.06.09-00.56.12:708][ 53]LogBlueprintUserMessages: [M_WarehouseWreckage_C_8] Hello Player!
+[2023.06.09-00.56.12:709][ 53]PIE: Server logged in
+[2023.06.09-00.56.12:710][ 53]PIE: Play in editor total start time 0.714 seconds.
+[2023.06.09-00.56.12:770][ 53]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.06.09-00.56.13:952][107]LogStreaming: Warning: Detected 47 objects loaded in PostLoad while streaming, this may cause hitches as we're blocking async loading to pre-load them.
+[2023.06.09-00.56.14:932][168]LogBlueprintUserMessages: [BP_Projectile_C_0] Blamo!
+[2023.06.09-00.56.16:639][280]LogBlueprintUserMessages: [BP_Projectile_C_1] Blamo!
+[2023.06.09-00.56.17:875][353]LogBlueprintUserMessages: [BP_Projectile_C_2] Blamo!
+[2023.06.09-00.56.18:415][386]LogBlueprintUserMessages: [BP_Projectile_C_3] Blamo!
+[2023.06.09-00.56.19:435][449]LogBlueprintUserMessages: [BP_Projectile_C_4] Blamo!
+[2023.06.09-00.56.20:455][508]LogBlueprintUserMessages: [BP_Projectile_C_5] Blamo!
+[2023.06.09-00.56.20:702][524]LogBlueprintUserMessages: [BP_Projectile_C_6] Blamo!
+[2023.06.09-00.56.20:908][536]LogBlueprintUserMessages: [BP_Projectile_C_7] Blamo!
+[2023.06.09-00.56.21:120][548]LogBlueprintUserMessages: [BP_Projectile_C_8] Blamo!
+[2023.06.09-00.56.21:350][560]LogBlueprintUserMessages: [BP_Projectile_C_9] Blamo!
+[2023.06.09-00.56.21:599][574]LogBlueprintUserMessages: [BP_Projectile_C_10] Blamo!
+[2023.06.09-00.56.23:874][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.09-00.56.23:874][715]LogWorld: BeginTearingDown for /Game/Warehouse_Wreckage/Maps/UEDPIE_0_M_WarehouseWreckage
+[2023.06.09-00.56.23:875][715]LogSlate: Window 'U_WarehouseWreckage Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.06.09-00.56.23:907][715]LogWorld: UWorld::CleanupWorld for M_WarehouseWreckage, bSessionEnded=true, bCleanupResources=true
+[2023.06.09-00.56.23:907][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.09-00.56.23:907][715]LogContentBundle: [Container: M_WarehouseWreckage] Deleting container.
+[2023.06.09-00.56.23:913][715]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.09-00.56.23:921][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.09-00.56.23:987][715]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.06.09-00.56.23:989][715]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.06.09-00.56.24:012][715]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.06.09-00.56.24:057][716]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.06.09-01.04.44:770][237]LogDerivedDataCache: C:/Users/ellio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.119 and deleted 0 files with total size 0 MiB. Scanned 654 files in 651 folders with total size 27 MiB.
+[2023.06.09-01.44.42:746][428]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.45.12:079][516]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.45.52:153][635]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.46.30:586][750]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.47.06:639][858]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.47.21:051][901]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.48.17:282][ 70]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.49.07:845][221]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.49.32:978][297]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.50.18:144][432]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.51.00:526][559]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.51.17:890][611]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.51.43:352][687]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.52.39:908][857]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.53.25:713][994]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.53.49:348][ 65]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.54.25:312][172]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.55.05:774][293]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.55.37:912][389]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.56.21:385][518]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.56.50:833][606]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.57.10:632][665]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.57.29:151][721]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.58.27:734][896]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.59.33:107][ 92]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-01.59.45:789][130]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-02.00.12:516][210]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-02.00.53:523][333]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-02.01.27:241][434]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-02.02.24:733][606]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-02.02.42:821][660]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-02.03.47:241][853]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-02.04.10:473][923]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-02.04.35:729][999]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-02.04.44:778][ 26]LogDerivedDataCache: C:/Users/ellio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.126 and deleted 0 files with total size 0 MiB. Scanned 654 files in 651 folders with total size 27 MiB.
+[2023.06.09-02.05.10:651][103]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-02.05.34:109][173]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-02.06.21:937][317]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-02.07.07:486][453]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-02.07.28:481][516]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-02.07.52:411][587]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.06.09-02.15.51:488][187]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-02.15.51:560][187]LogFileHelpers: No new changes to save!
+[2023.06.09-02.15.51:861][187]LogUObjectHash: Compacting FUObjectHashTables data took   6.80ms
+[2023.06.09-02.15.51:891][187]LogSavePackage: Moving output files for package: /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage
+[2023.06.09-02.15.51:892][187]LogSavePackage: Moving 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Saved/M_WarehouseWreckage6488C82148669B1646E2B6A5928B732D.tmp' to 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/Warehouse_Wreckage/Maps/M_WarehouseWreckage.umap'
+[2023.06.09-02.15.51:913][187]LogFileHelpers: Saving map 'M_WarehouseWreckage' took 0.356
+[2023.06.09-02.15.51:921][187]LogFileHelpers: InternalPromptForCheckoutAndSave took 432 ms (total: 2.29 sec)
+[2023.06.09-02.15.51:931][187]AssetCheck: New page: Asset Save: M_WarehouseWreckage
+[2023.06.09-02.15.51:931][187]LogContentValidation: Display: Validating /Script/Engine.World /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage
+[2023.06.09-02.15.52:507][254]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-02.15.52:564][254]LogFileHelpers: No new changes to save!
+[2023.06.09-02.15.52:635][254]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.06.09-02.15.52:666][254]LogSavePackage: Moving output files for package: /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage
+[2023.06.09-02.15.52:666][254]LogSavePackage: Moving 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Saved/M_WarehouseWreckage3FEFC9ED48A1632A4FE2B7A819312B17.tmp' to 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/Warehouse_Wreckage/Maps/M_WarehouseWreckage.umap'
+[2023.06.09-02.15.52:682][254]LogFileHelpers: Saving map 'M_WarehouseWreckage' took 0.119
+[2023.06.09-02.15.52:691][254]LogFileHelpers: InternalPromptForCheckoutAndSave took 183 ms (total: 2.48 sec)
+[2023.06.09-02.15.52:701][254]AssetCheck: New page: Asset Save: M_WarehouseWreckage
+[2023.06.09-02.15.52:701][254]LogContentValidation: Display: Validating /Script/Engine.World /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage
+[2023.06.09-02.15.53:304][325]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-02.15.53:363][325]LogFileHelpers: No new changes to save!
+[2023.06.09-02.15.53:431][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.06.09-02.15.53:441][325]LogSavePackage: Moving output files for package: /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage
+[2023.06.09-02.15.53:441][325]LogSavePackage: Moving 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Saved/M_WarehouseWreckage53CDB87C4AF080FE65B1C4A756517232.tmp' to 'E:/GamingKoala/K_Learning/U_WarehouseWreckage/Content/Warehouse_Wreckage/Maps/M_WarehouseWreckage.umap'
+[2023.06.09-02.15.53:457][325]LogFileHelpers: Saving map 'M_WarehouseWreckage' took 0.095
+[2023.06.09-02.15.53:464][325]LogFileHelpers: InternalPromptForCheckoutAndSave took 159 ms (total: 2.64 sec)
+[2023.06.09-02.15.53:474][325]AssetCheck: New page: Asset Save: M_WarehouseWreckage
+[2023.06.09-02.15.53:474][325]LogContentValidation: Display: Validating /Script/Engine.World /Game/Warehouse_Wreckage/Maps/M_WarehouseWreckage.M_WarehouseWreckage
+[2023.06.09-02.16.06:425][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.06.09-02.16.06:440][273]LogStall: Shutdown...
+[2023.06.09-02.16.06:465][273]LogStall: Shutdown complete.
+[2023.06.09-02.16.06:544][273]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.06.09-02.16.06:545][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.09-02.16.06:797][273]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.06.09-02.16.06:797][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.09-02.16.06:979][273]LogSlate: Window 'U_WarehouseWreckage - Unreal Editor' being destroyed
+[2023.06.09-02.16.07:341][274]Cmd: QUIT_EDITOR
+[2023.06.09-02.16.07:341][274]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2023.06.09-02.16.07:358][274]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.06.09-02.16.07:358][274]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2023.06.09-02.16.07:359][274]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2023.06.09-02.16.07:830][274]LogWorld: UWorld::CleanupWorld for M_WarehouseWreckage, bSessionEnded=true, bCleanupResources=true
+[2023.06.09-02.16.07:831][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.09-02.16.07:837][274]LogContentBundle: [Container: M_WarehouseWreckage] Deleting container.
+[2023.06.09-02.16.07:856][274]LogStylusInput: Shutting down StylusInput subsystem.
+[2023.06.09-02.16.07:862][274]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2023.06.09-02.16.08:654][274]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2023.06.09-02.16.08:654][274]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2023.06.09-02.16.08:654][274]LogAudio: Display: Audio Device unregistered from world 'M_WarehouseWreckage'.
+[2023.06.09-02.16.08:654][274]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.06.09-02.16.08:658][274]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.06.09-02.16.08:681][274]LogAudio: Display: Audio Device Manager Shutdown
+[2023.06.09-02.16.08:707][274]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.06.09-02.16.08:713][274]LogExit: Preparing to exit.
+[2023.06.09-02.16.09:616][274]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2023.06.09-02.16.09:625][274]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.09-02.16.09:625][274]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.09-02.16.09:658][274]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.09-02.16.09:659][274]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.09-02.16.09:659][274]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.09-02.16.09:659][274]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.09-02.16.09:659][274]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.09-02.16.09:659][274]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.09-02.16.09:659][274]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.09-02.16.09:659][274]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.09-02.16.09:659][274]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.09-02.16.09:659][274]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.09-02.16.09:659][274]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.09-02.16.09:659][274]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.09-02.16.09:659][274]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.09-02.16.09:659][274]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.09-02.16.09:661][274]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.09-02.16.09:661][274]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.09-02.16.09:662][274]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.09-02.16.11:192][274]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.06.09-02.16.11:197][274]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.06.09-02.16.11:203][274]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.06.09-02.16.11:362][274]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2023.06.09-02.16.11:410][274]LogExit: Editor shut down
+[2023.06.09-02.16.11:421][274]LogExit: Transaction tracking system shut down
+[2023.06.09-02.16.12:691][274]LogExit: Object subsystem successfully closed.
+[2023.06.09-02.16.12:703][274]LogShaderCompilers: Display: ================================================
+[2023.06.09-02.16.12:703][274]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.06.09-02.16.12:703][274]LogShaderCompilers: Display: Total job queries 129, among them cache hits 19 (14.73%)
+[2023.06.09-02.16.12:703][274]LogShaderCompilers: Display: Tracking 110 distinct input hashes that result in 88 distinct outputs (80.00%)
+[2023.06.09-02.16.12:703][274]LogShaderCompilers: Display: RAM used: 0.92 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.11%
+[2023.06.09-02.16.12:703][274]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.06.09-02.16.12:703][274]LogShaderCompilers: Display: Shaders Compiled: 21
+[2023.06.09-02.16.12:703][274]LogShaderCompilers: Display: Jobs assigned 21, completed 21 (100.00%)
+[2023.06.09-02.16.12:703][274]LogShaderCompilers: Display: Average time worker was idle: 43.90 s
+[2023.06.09-02.16.12:703][274]LogShaderCompilers: Display: Time job spent in pending queue: average 15.00 s, longest 71.16 s
+[2023.06.09-02.16.12:703][274]LogShaderCompilers: Display: Job execution time: average 16.20 s, max 55.66 s
+[2023.06.09-02.16.12:703][274]LogShaderCompilers: Display: Job life time (pending + execution): average 31.21 s, max 99.29
+[2023.06.09-02.16.12:703][274]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 130.16 s
+[2023.06.09-02.16.12:703][274]LogShaderCompilers: Display: Jobs were issued in 21 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.06.09-02.16.12:703][274]LogShaderCompilers: Display: Average processing rate: 0.16 jobs/sec
+[2023.06.09-02.16.12:703][274]LogShaderCompilers: Display: Total thread time: 238.32 s
+[2023.06.09-02.16.12:704][274]LogShaderCompilers: Display: Total thread preprocess time: 6.64 s
+[2023.06.09-02.16.12:704][274]LogShaderCompilers: Display: Percentage time preprocessing: 2.79%
+[2023.06.09-02.16.12:704][274]LogShaderCompilers: Display: Effective parallelization: 1.83 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2023.06.09-02.16.12:704][274]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.06.09-02.16.12:704][274]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    4 times, average 19.74 sec, max 47.84 sec, min 3.14 sec)
+[2023.06.09-02.16.12:704][274]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    4 times, average 18.77 sec, max 43.81 sec, min 1.87 sec)
+[2023.06.09-02.16.12:704][274]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    4 times, average 9.48 sec, max 15.80 sec, min 3.92 sec)
+[2023.06.09-02.16.12:704][274]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    4 times, average 9.10 sec, max 15.99 sec, min 3.62 sec)
+[2023.06.09-02.16.12:704][274]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 5.64 sec, max 5.64 sec, min 5.64 sec)
+[2023.06.09-02.16.12:704][274]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.06.09-02.16.12:704][274]LogShaderCompilers: Display:                                                 FLumenCardVS - 33.13% of total time (compiled    4 times, average 19.74 sec, max 47.84 sec, min 3.14 sec)
+[2023.06.09-02.16.12:704][274]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 31.51% of total time (compiled    4 times, average 18.77 sec, max 43.81 sec, min 1.87 sec)
+[2023.06.09-02.16.12:704][274]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 15.91% of total time (compiled    4 times, average 9.48 sec, max 15.80 sec, min 3.92 sec)
+[2023.06.09-02.16.12:704][274]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.27% of total time (compiled    4 times, average 9.10 sec, max 15.99 sec, min 3.62 sec)
+[2023.06.09-02.16.12:704][274]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 2.37% of total time (compiled    1 times, average 5.64 sec, max 5.64 sec, min 5.64 sec)
+[2023.06.09-02.16.12:704][274]LogShaderCompilers: Display: ================================================
+[2023.06.09-02.16.12:758][274]LogShaderCompilers: Display: Shaders left to compile 0
+[2023.06.09-02.16.12:807][274]LogVirtualization: UE::Virtualization was shutdown
+[2023.06.09-02.16.12:980][274]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (997)
+[2023.06.09-02.16.12:980][274]LogModuleManager: Shutting down and abandoning module Voice (995)
+[2023.06.09-02.16.12:981][274]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (993)
+[2023.06.09-02.16.12:981][274]LogModuleManager: Shutting down and abandoning module BlueprintGraph (991)
+[2023.06.09-02.16.12:981][274]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (989)
+[2023.06.09-02.16.12:981][274]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (987)
+[2023.06.09-02.16.12:981][274]LogModuleManager: Shutting down and abandoning module AddContentDialog (985)
+[2023.06.09-02.16.12:983][274]LogModuleManager: Shutting down and abandoning module WidgetCarousel (984)
+[2023.06.09-02.16.12:983][274]LogModuleManager: Shutting down and abandoning module SubobjectEditor (979)
+[2023.06.09-02.16.12:983][274]LogModuleManager: Shutting down and abandoning module SceneOutliner (977)
+[2023.06.09-02.16.12:983][274]LogModuleManager: Shutting down and abandoning module StatusBar (975)
+[2023.06.09-02.16.12:983][274]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (973)
+[2023.06.09-02.16.12:983][274]LogModuleManager: Shutting down and abandoning module StatsViewer (971)
+[2023.06.09-02.16.12:988][274]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (969)
+[2023.06.09-02.16.12:988][274]LogModuleManager: Shutting down and abandoning module AutomationWorker (967)
+[2023.06.09-02.16.12:989][274]LogModuleManager: Shutting down and abandoning module PlanarCut (965)
+[2023.06.09-02.16.12:990][274]LogModuleManager: Shutting down and abandoning module CharacterAI (963)
+[2023.06.09-02.16.12:990][274]LogModuleManager: Shutting down and abandoning module SmartSnapping (961)
+[2023.06.09-02.16.12:990][274]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (959)
+[2023.06.09-02.16.12:990][274]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (957)
+[2023.06.09-02.16.12:990][274]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (955)
+[2023.06.09-02.16.12:990][274]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (953)
+[2023.06.09-02.16.12:990][274]LogModuleManager: Shutting down and abandoning module WebMMedia (951)
+[2023.06.09-02.16.12:990][274]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (949)
+[2023.06.09-02.16.12:990][274]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (947)
+[2023.06.09-02.16.12:992][274]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (945)
+[2023.06.09-02.16.12:992][274]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (943)
+[2023.06.09-02.16.12:992][274]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (941)
+[2023.06.09-02.16.12:993][274]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (939)
+[2023.06.09-02.16.12:993][274]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (937)
+[2023.06.09-02.16.12:993][274]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (935)
+[2023.06.09-02.16.12:993][274]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (933)
+[2023.06.09-02.16.12:993][274]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (931)
+[2023.06.09-02.16.12:994][274]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (929)
+[2023.06.09-02.16.12:994][274]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (927)
+[2023.06.09-02.16.12:995][274]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (925)
+[2023.06.09-02.16.12:996][274]LogModuleManager: Shutting down and abandoning module IKRigEditor (923)
+[2023.06.09-02.16.13:000][274]LogModuleManager: Shutting down and abandoning module ControlRigEditor (921)
+[2023.06.09-02.16.13:007][274]LogModuleManager: Shutting down and abandoning module WaveTableEditor (919)
+[2023.06.09-02.16.13:007][274]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (917)
+[2023.06.09-02.16.13:007][274]LogModuleManager: Shutting down and abandoning module GooglePADEditor (915)
+[2023.06.09-02.16.13:007][274]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (913)
+[2023.06.09-02.16.13:007][274]LogModuleManager: Shutting down and abandoning module SequenceRecorder (912)
+[2023.06.09-02.16.13:007][274]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (909)
+[2023.06.09-02.16.13:008][274]LogModuleManager: Shutting down and abandoning module TextureAlignMode (907)
+[2023.06.09-02.16.13:008][274]LogModuleManager: Shutting down and abandoning module BspMode (905)
+[2023.06.09-02.16.13:008][274]LogModuleManager: Shutting down and abandoning module GeometryMode (903)
+[2023.06.09-02.16.13:009][274]LogModuleManager: Shutting down and abandoning module SessionServices (901)
+[2023.06.09-02.16.13:010][274]LogModuleManager: Shutting down and abandoning module MeshPaint (899)
+[2023.06.09-02.16.13:011][274]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (897)
+[2023.06.09-02.16.13:011][274]LogModuleManager: Shutting down and abandoning module PlacementMode (896)
+[2023.06.09-02.16.13:011][274]LogModuleManager: Shutting down and abandoning module FoliageEdit (893)
+[2023.06.09-02.16.13:013][274]LogModuleManager: Shutting down and abandoning module LandscapeEditor (891)
+[2023.06.09-02.16.13:022][274]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (889)
+[2023.06.09-02.16.13:022][274]LogModuleManager: Shutting down and abandoning module ActorPickerMode (887)
+[2023.06.09-02.16.13:022][274]LogModuleManager: Shutting down and abandoning module ViewportSnapping (885)
+[2023.06.09-02.16.13:022][274]LogModuleManager: Shutting down and abandoning module ViewportInteraction (883)
+[2023.06.09-02.16.13:022][274]LogModuleManager: Shutting down and abandoning module ClothPainter (881)
+[2023.06.09-02.16.13:024][274]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (880)
+[2023.06.09-02.16.13:025][274]LogModuleManager: Shutting down and abandoning module LogVisualizer (877)
+[2023.06.09-02.16.13:027][274]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (875)
+[2023.06.09-02.16.13:027][274]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (873)
+[2023.06.09-02.16.13:027][274]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (872)
+[2023.06.09-02.16.13:028][274]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (870)
+[2023.06.09-02.16.13:490][274]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (867)
+[2023.06.09-02.16.13:490][274]LogModuleManager: Shutting down and abandoning module HoloLensPlatformEditor (865)
+[2023.06.09-02.16.13:490][274]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (863)
+[2023.06.09-02.16.13:490][274]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (861)
+[2023.06.09-02.16.13:490][274]LogModuleManager: Shutting down and abandoning module AnimationSettings (859)
+[2023.06.09-02.16.13:490][274]LogModuleManager: Shutting down and abandoning module VirtualizationEditor (857)
+[2023.06.09-02.16.13:490][274]LogModuleManager: Shutting down and abandoning module CSVtoSVG (855)
+[2023.06.09-02.16.13:490][274]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (853)
+[2023.06.09-02.16.13:490][274]LogModuleManager: Shutting down and abandoning module EditorConfig (851)
+[2023.06.09-02.16.13:490][274]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (849)
+[2023.06.09-02.16.13:490][274]LogModuleManager: Shutting down and abandoning module EditorFramework (847)
+[2023.06.09-02.16.13:490][274]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (845)
+[2023.06.09-02.16.13:492][274]LogModuleManager: Shutting down and abandoning module TraceInsights (843)
+[2023.06.09-02.16.13:497][274]MemoryProfiler: Shutdown
+[2023.06.09-02.16.13:498][274]NetworkingProfiler: Shutdown
+[2023.06.09-02.16.13:498][274]LoadingProfiler: Shutdown
+[2023.06.09-02.16.13:498][274]TimingProfiler: Shutdown
+[2023.06.09-02.16.13:504][274]LogModuleManager: Shutting down and abandoning module TraceServices (842)
+[2023.06.09-02.16.13:505][274]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (839)
+[2023.06.09-02.16.13:505][274]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (838)
+[2023.06.09-02.16.13:506][274]LogModuleManager: Shutting down and abandoning module InputBindingEditor (835)
+[2023.06.09-02.16.13:506][274]LogModuleManager: Shutting down and abandoning module MergeActors (833)
+[2023.06.09-02.16.13:507][274]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (831)
+[2023.06.09-02.16.13:507][274]LogModuleManager: Shutting down and abandoning module LocalizationService (830)
+[2023.06.09-02.16.13:507][274]LogModuleManager: Shutting down and abandoning module HardwareTargeting (827)
+[2023.06.09-02.16.13:507][274]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (825)
+[2023.06.09-02.16.13:508][274]LogModuleManager: Shutting down and abandoning module UndoHistory (823)
+[2023.06.09-02.16.13:508][274]LogModuleManager: Shutting down and abandoning module XmlParser (821)
+[2023.06.09-02.16.13:508][274]LogModuleManager: Shutting down and abandoning module Blutility (819)
+[2023.06.09-02.16.13:508][274]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (817)
+[2023.06.09-02.16.13:508][274]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (816)
+[2023.06.09-02.16.13:509][274]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (813)
+[2023.06.09-02.16.13:509][274]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (812)
+[2023.06.09-02.16.13:509][274]LogModuleManager: Shutting down and abandoning module SettingsEditor (809)
+[2023.06.09-02.16.13:509][274]LogModuleManager: Shutting down and abandoning module ProjectLauncher (807)
+[2023.06.09-02.16.13:509][274]LogModuleManager: Shutting down and abandoning module SessionFrontend (805)
+[2023.06.09-02.16.13:509][274]LogModuleManager: Shutting down and abandoning module ProfilerClient (803)
+[2023.06.09-02.16.13:510][274]LogModuleManager: Shutting down and abandoning module DeviceManager (801)
+[2023.06.09-02.16.13:510][274]LogModuleManager: Shutting down and abandoning module AutomationController (799)
+[2023.06.09-02.16.13:511][274]LogModuleManager: Shutting down and abandoning module AutomationWindow (797)
+[2023.06.09-02.16.13:512][274]LogModuleManager: Shutting down and abandoning module Layers (795)
+[2023.06.09-02.16.13:514][274]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (793)
+[2023.06.09-02.16.13:514][274]LogModuleManager: Shutting down and abandoning module DetailCustomizations (791)
+[2023.06.09-02.16.13:514][274]LogModuleManager: Shutting down and abandoning module PackagesDialog (789)
+[2023.06.09-02.16.13:514][274]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (787)
+[2023.06.09-02.16.13:515][274]LogModuleManager: Shutting down and abandoning module Persona (785)
+[2023.06.09-02.16.13:518][274]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (784)
+[2023.06.09-02.16.13:518][274]LogModuleManager: Shutting down and abandoning module AnimGraph (782)
+[2023.06.09-02.16.13:518][274]LogModuleManager: Shutting down and abandoning module Kismet (779)
+[2023.06.09-02.16.13:534][274]LogModuleManager: Shutting down and abandoning module KismetWidgets (778)
+[2023.06.09-02.16.13:534][274]LogModuleManager: Shutting down and abandoning module GraphEditor (775)
+[2023.06.09-02.16.13:535][274]LogModuleManager: Shutting down and abandoning module StructViewer (773)
+[2023.06.09-02.16.13:535][274]LogModuleManager: Shutting down and abandoning module ClassViewer (771)
+[2023.06.09-02.16.13:535][274]LogModuleManager: Shutting down and abandoning module NaniteTools (769)
+[2023.06.09-02.16.13:535][274]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (767)
+[2023.06.09-02.16.13:536][274]LogModuleManager: Shutting down and abandoning module SourceControlWindowExtender (765)
+[2023.06.09-02.16.13:536][274]LogModuleManager: Shutting down and abandoning module SourceControlWindows (763)
+[2023.06.09-02.16.13:538][274]LogModuleManager: Shutting down and abandoning module OutputLog (761)
+[2023.06.09-02.16.13:539][274]LogModuleManager: Shutting down and abandoning module Documentation (759)
+[2023.06.09-02.16.13:539][274]LogModuleManager: Shutting down and abandoning module LiveCoding (757)
+[2023.06.09-02.16.13:546][274]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (755)
+[2023.06.09-02.16.13:546][274]LogModuleManager: Shutting down and abandoning module MovieScene (753)
+[2023.06.09-02.16.13:546][274]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (751)
+[2023.06.09-02.16.13:546][274]LogModuleManager: Shutting down and abandoning module BinkAudioDecoder (749)
+[2023.06.09-02.16.13:546][274]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (747)
+[2023.06.09-02.16.13:546][274]LogModuleManager: Shutting down and abandoning module AudioMixer (746)
+[2023.06.09-02.16.13:546][274]LogModuleManager: Shutting down and abandoning module AudioMixerCore (745)
+[2023.06.09-02.16.13:547][274]LogModuleManager: Shutting down and abandoning module LauncherPlatform (741)
+[2023.06.09-02.16.13:547][274]LogModuleManager: Shutting down and abandoning module AnalyticsET (739)
+[2023.06.09-02.16.13:547][274]LogModuleManager: Shutting down and abandoning module PortalServices (737)
+[2023.06.09-02.16.13:547][274]LogModuleManager: Shutting down and abandoning module PortalRpc (735)
+[2023.06.09-02.16.13:547][274]LogModuleManager: Shutting down and abandoning module MessagingRpc (733)
+[2023.06.09-02.16.13:547][274]LogModuleManager: Shutting down and abandoning module AIModule (731)
+[2023.06.09-02.16.13:547][274]LogModuleManager: Shutting down and abandoning module GameplayDebugger (730)
+[2023.06.09-02.16.13:547][274]LogModuleManager: Shutting down and abandoning module AITestSuite (728)
+[2023.06.09-02.16.13:547][274]LogModuleManager: Shutting down and abandoning module NavigationSystem (726)
+[2023.06.09-02.16.13:547][274]LogModuleManager: Shutting down and abandoning module DataLayerEditor (723)
+[2023.06.09-02.16.13:547][274]LogModuleManager: Shutting down and abandoning module EditorWidgets (722)
+[2023.06.09-02.16.13:547][274]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (719)
+[2023.06.09-02.16.13:547][274]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (717)
+[2023.06.09-02.16.13:547][274]LogModuleManager: Shutting down and abandoning module TypedElementFramework (715)
+[2023.06.09-02.16.13:547][274]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (713)
+[2023.06.09-02.16.13:547][274]LogModuleManager: Shutting down and abandoning module ProfilerService (711)
+[2023.06.09-02.16.13:711][274]LogModuleManager: Shutting down and abandoning module TaskGraph (709)
+[2023.06.09-02.16.13:712][274]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (707)
+[2023.06.09-02.16.13:716][274]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (705)
+[2023.06.09-02.16.13:716][274]LogModuleManager: Shutting down and abandoning module TakesCore (703)
+[2023.06.09-02.16.13:716][274]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (701)
+[2023.06.09-02.16.13:716][274]LogModuleManager: Shutting down and abandoning module MegascansPlugin (699)
+[2023.06.09-02.16.13:717][274]LogModuleManager: Shutting down and abandoning module Bridge (697)
+[2023.06.09-02.16.13:717][274]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (695)
+[2023.06.09-02.16.13:717][274]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (693)
+[2023.06.09-02.16.13:717][274]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (691)
+[2023.06.09-02.16.13:717][274]LogModuleManager: Shutting down and abandoning module CollectionManager (690)
+[2023.06.09-02.16.13:718][274]LogModuleManager: Shutting down and abandoning module ObjectMixerEditor (687)
+[2023.06.09-02.16.13:719][274]LogModuleManager: Shutting down and abandoning module LightMixer (685)
+[2023.06.09-02.16.13:719][274]LogModuleManager: Shutting down and abandoning module UVEditorToolsEditorOnly (683)
+[2023.06.09-02.16.13:720][274]LogModuleManager: Shutting down and abandoning module UVEditorTools (681)
+[2023.06.09-02.16.13:720][274]LogModuleManager: Shutting down and abandoning module UVEditor (679)
+[2023.06.09-02.16.13:721][274]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (677)
+[2023.06.09-02.16.13:721][274]LogOpenImageDenoise: OIDN shutting down
+[2023.06.09-02.16.13:721][274]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (675)
+[2023.06.09-02.16.13:721][274]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (673)
+[2023.06.09-02.16.13:723][274]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (671)
+[2023.06.09-02.16.13:723][274]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (669)
+[2023.06.09-02.16.13:723][274]LogModuleManager: Shutting down and abandoning module MeshLODToolset (667)
+[2023.06.09-02.16.13:723][274]LogModuleManager: Shutting down and abandoning module Iris (665)
+[2023.06.09-02.16.13:723][274]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (663)
+[2023.06.09-02.16.13:724][274]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (661)
+[2023.06.09-02.16.13:724][274]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (659)
+[2023.06.09-02.16.13:724][274]LogModuleManager: Shutting down and abandoning module GeometryCollectionNodes (657)
+[2023.06.09-02.16.13:724][274]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (655)
+[2023.06.09-02.16.13:724][274]LogModuleManager: Shutting down and abandoning module GeometryCollectionEngine (654)
+[2023.06.09-02.16.13:724][274]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (652)
+[2023.06.09-02.16.13:724][274]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (649)
+[2023.06.09-02.16.13:724][274]LogModuleManager: Shutting down and abandoning module DataflowNodes (647)
+[2023.06.09-02.16.13:724][274]LogModuleManager: Shutting down and abandoning module DataflowEditor (645)
+[2023.06.09-02.16.13:724][274]LogModuleManager: Shutting down and abandoning module ChaosUserDataPT (643)
+[2023.06.09-02.16.13:724][274]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (641)
+[2023.06.09-02.16.13:724][274]LogModuleManager: Shutting down and abandoning module ChaosNiagara (639)
+[2023.06.09-02.16.13:725][274]LogModuleManager: Shutting down and abandoning module FractureEditor (637)
+[2023.06.09-02.16.13:726][274]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (635)
+[2023.06.09-02.16.13:726][274]LogModuleManager: Shutting down and abandoning module BackChannel (633)
+[2023.06.09-02.16.13:726][274]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (631)
+[2023.06.09-02.16.13:726][274]LogModuleManager: Shutting down and abandoning module AutomationUtils (629)
+[2023.06.09-02.16.13:726][274]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (627)
+[2023.06.09-02.16.13:726][274]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (625)
+[2023.06.09-02.16.13:726][274]LogModuleManager: Shutting down and abandoning module UObjectPlugin (623)
+[2023.06.09-02.16.13:726][274]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (621)
+[2023.06.09-02.16.13:727][274]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (619)
+[2023.06.09-02.16.13:727][274]LogModuleManager: Shutting down and abandoning module PluginUtils (617)
+[2023.06.09-02.16.13:727][274]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (615)
+[2023.06.09-02.16.13:729][274]LogModuleManager: Shutting down and abandoning module GitSourceControl (613)
+[2023.06.09-02.16.13:730][274]LogModuleManager: Shutting down and abandoning module DumpGPUServices (611)
+[2023.06.09-02.16.13:730][274]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (609)
+[2023.06.09-02.16.13:730][274]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (607)
+[2023.06.09-02.16.13:730][274]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (605)
+[2023.06.09-02.16.13:730][274]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (603)
+[2023.06.09-02.16.13:730][274]LogModuleManager: Shutting down and abandoning module Paper2DEditor (601)
+[2023.06.09-02.16.13:732][274]LogModuleManager: Shutting down and abandoning module MediaPlateEditor (599)
+[2023.06.09-02.16.13:732][274]LogModuleManager: Shutting down and abandoning module MediaPlate (597)
+[2023.06.09-02.16.13:732][274]LogModuleManager: Shutting down and abandoning module MediaCompositing (595)
+[2023.06.09-02.16.13:732][274]LogModuleManager: Shutting down and abandoning module ImgMedia (593)
+[2023.06.09-02.16.13:733][274]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (591)
+[2023.06.09-02.16.13:733][274]LogModuleManager: Shutting down and abandoning module InterchangeTestEditor (589)
+[2023.06.09-02.16.13:734][274]LogModuleManager: Shutting down and abandoning module InterchangeTests (587)
+[2023.06.09-02.16.13:734][274]LogModuleManager: Shutting down and abandoning module TemplateSequence (583)
+[2023.06.09-02.16.13:734][274]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (581)
+[2023.06.09-02.16.13:734][274]LogModuleManager: Shutting down and abandoning module SequencerScripting (579)
+[2023.06.09-02.16.13:735][274]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (577)
+[2023.06.09-02.16.13:736][274]LogModuleManager: Shutting down and abandoning module InterchangeCommonParser (575)
+[2023.06.09-02.16.13:737][274]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (573)
+[2023.06.09-02.16.13:737][274]LogModuleManager: Shutting down and abandoning module InterchangePipelines (571)
+[2023.06.09-02.16.13:737][274]LogModuleManager: Shutting down and abandoning module InterchangeExport (569)
+[2023.06.09-02.16.13:737][274]LogModuleManager: Shutting down and abandoning module InterchangeMessages (567)
+[2023.06.09-02.16.13:737][274]LogModuleManager: Shutting down and abandoning module InterchangeImport (565)
+[2023.06.09-02.16.13:738][274]LogModuleManager: Shutting down and abandoning module InterchangeFactoryNodes (563)
+[2023.06.09-02.16.13:738][274]LogModuleManager: Shutting down and abandoning module InterchangeNodes (561)
+[2023.06.09-02.16.13:738][274]LogModuleManager: Shutting down and abandoning module InterchangeEditorUtilities (559)
+[2023.06.09-02.16.13:738][274]LogModuleManager: Shutting down and abandoning module InterchangeResultsBrowser (557)
+[2023.06.09-02.16.13:738][274]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (555)
+[2023.06.09-02.16.13:738][274]LogModuleManager: Shutting down and abandoning module InterchangeEditor (553)
+[2023.06.09-02.16.13:738][274]LogModuleManager: Shutting down and abandoning module VariantManager (551)
+[2023.06.09-02.16.13:740][274]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (550)
+[2023.06.09-02.16.13:741][274]LogModuleManager: Shutting down and abandoning module GLTFMaterialBaking (547)
+[2023.06.09-02.16.13:741][274]LogModuleManager: Shutting down and abandoning module GLTFMaterialAnalyzer (545)
+[2023.06.09-02.16.13:741][274]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (543)
+[2023.06.09-02.16.13:743][274]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (541)
+[2023.06.09-02.16.13:743][274]LogModuleManager: Shutting down and abandoning module ControlRigSpline (539)
+[2023.06.09-02.16.13:743][274]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (537)
+[2023.06.09-02.16.13:743][274]LogModuleManager: Shutting down and abandoning module TakeSequencer (535)
+[2023.06.09-02.16.13:743][274]LogModuleManager: Shutting down and abandoning module TakeMovieScene (533)
+[2023.06.09-02.16.13:743][274]LogModuleManager: Shutting down and abandoning module SynthesisEditor (531)
+[2023.06.09-02.16.13:743][274]LogModuleManager: Shutting down and abandoning module ResonanceAudio (529)
+[2023.06.09-02.16.13:743][274]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (527)
+[2023.06.09-02.16.13:743][274]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (525)
+[2023.06.09-02.16.13:743][274]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (523)
+[2023.06.09-02.16.13:743][274]LogModuleManager: Shutting down and abandoning module ModelingOperators (521)
+[2023.06.09-02.16.13:744][274]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (519)
+[2023.06.09-02.16.13:744][274]LogModuleManager: Shutting down and abandoning module ModelingComponents (517)
+[2023.06.09-02.16.13:744][274]LogModuleManager: Shutting down and abandoning module GeometryFramework (516)
+[2023.06.09-02.16.13:745][274]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (513)
+[2023.06.09-02.16.13:745][274]LogModuleManager: Shutting down and abandoning module MeshModelingTools (511)
+[2023.06.09-02.16.13:745][274]LogModuleManager: Shutting down and abandoning module InputDebugging (509)
+[2023.06.09-02.16.13:745][274]LogModuleManager: Shutting down and abandoning module GooglePAD (507)
+[2023.06.09-02.16.13:745][274]LogModuleManager: Shutting down and abandoning module DynamicMesh (505)
+[2023.06.09-02.16.13:746][274]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (503)
+[2023.06.09-02.16.13:747][274]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (501)
+[2023.06.09-02.16.13:747][274]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (499)
+[2023.06.09-02.16.13:747][274]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (497)
+[2023.06.09-02.16.13:747][274]LogModuleManager: Shutting down and abandoning module AudioCapture (495)
+[2023.06.09-02.16.13:747][274]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (494)
+[2023.06.09-02.16.13:747][274]LogModuleManager: Shutting down and abandoning module AssetTags (491)
+[2023.06.09-02.16.13:747][274]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (489)
+[2023.06.09-02.16.13:747][274]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (487)
+[2023.06.09-02.16.13:747][274]LogModuleManager: Shutting down and abandoning module AppleImageUtils (485)
+[2023.06.09-02.16.13:747][274]LogModuleManager: Shutting down and abandoning module AndroidPermission (483)
+[2023.06.09-02.16.13:747][274]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (481)
+[2023.06.09-02.16.13:747][274]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (479)
+[2023.06.09-02.16.13:747][274]LogModuleManager: Shutting down and abandoning module AlembicImporter (477)
+[2023.06.09-02.16.13:747][274]LogModuleManager: Shutting down and abandoning module AlembicLibrary (476)
+[2023.06.09-02.16.13:747][274]LogModuleManager: Shutting down and abandoning module GeometryCache (475)
+[2023.06.09-02.16.13:747][274]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (474)
+[2023.06.09-02.16.13:747][274]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (469)
+[2023.06.09-02.16.13:749][274]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (467)
+[2023.06.09-02.16.13:749][274]LogModuleManager: Shutting down and abandoning module StylusInput (465)
+[2023.06.09-02.16.13:749][274]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (463)
+[2023.06.09-02.16.13:749][274]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (461)
+[2023.06.09-02.16.13:749][274]LogModuleManager: Shutting down and abandoning module PluginBrowser (459)
+[2023.06.09-02.16.13:754][274]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (457)
+[2023.06.09-02.16.13:754][274]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (455)
+[2023.06.09-02.16.13:756][274]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (453)
+[2023.06.09-02.16.13:756][274]LogModuleManager: Shutting down and abandoning module GLTFImporter (451)
+[2023.06.09-02.16.13:756][274]LogModuleManager: Shutting down and abandoning module GLTFCore (449)
+[2023.06.09-02.16.13:756][274]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (447)
+[2023.06.09-02.16.13:757][274]LogModuleManager: Shutting down and abandoning module EditorDebugTools (445)
+[2023.06.09-02.16.13:757][274]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (443)
+[2023.06.09-02.16.13:757][274]LogModuleManager: Shutting down and abandoning module CryptoKeys (441)
+[2023.06.09-02.16.13:757][274]LogModuleManager: Shutting down and abandoning module CurveEditorTools (439)
+[2023.06.09-02.16.13:758][274]LogModuleManager: Shutting down and abandoning module BlueprintHeaderView (437)
+[2023.06.09-02.16.13:758][274]LogModuleManager: Shutting down and abandoning module EditorTraceUtilities (435)
+[2023.06.09-02.16.13:758][274]LogModuleManager: Shutting down and abandoning module TraceUtilities (433)
+[2023.06.09-02.16.13:758][274]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (431)
+[2023.06.09-02.16.13:758][274]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (429)
+[2023.06.09-02.16.13:758][274]LogModuleManager: Shutting down and abandoning module InputEditor (427)
+[2023.06.09-02.16.13:758][274]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (425)
+[2023.06.09-02.16.13:758][274]LogModuleManager: Shutting down and abandoning module PBIK (423)
+[2023.06.09-02.16.13:758][274]LogModuleManager: Shutting down and abandoning module FullBodyIK (421)
+[2023.06.09-02.16.13:758][274]LogModuleManager: Shutting down and abandoning module ChaosCachingEditor (419)
+[2023.06.09-02.16.13:758][274]LogModuleManager: Shutting down and abandoning module TakeRecorder (418)
+[2023.06.09-02.16.13:759][274]LogModuleManager: Shutting down and abandoning module ChaosCaching (415)
+[2023.06.09-02.16.13:759][274]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (413)
+[2023.06.09-02.16.13:760][274]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (411)
+[2023.06.09-02.16.13:760][274]LogModuleManager: Shutting down and abandoning module AnimationSharing (409)
+[2023.06.09-02.16.13:760][274]LogModuleManager: Shutting down and abandoning module Paper2D (407)
+[2023.06.09-02.16.13:761][274]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (405)
+[2023.06.09-02.16.13:761][274]LogModuleManager: Shutting down and abandoning module GameplayCameras (403)
+[2023.06.09-02.16.13:761][274]LogModuleManager: Shutting down and abandoning module ActorSequence (401)
+[2023.06.09-02.16.13:761][274]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (399)
+[2023.06.09-02.16.13:761][274]LogModuleManager: Shutting down and abandoning module IKRig (397)
+[2023.06.09-02.16.13:761][274]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (395)
+[2023.06.09-02.16.13:761][274]LogModuleManager: Shutting down and abandoning module ControlRig (393)
+[2023.06.09-02.16.13:761][274]LogModuleManager: Shutting down and abandoning module LevelSequence (392)
+[2023.06.09-02.16.13:761][274]LogModuleManager: Shutting down and abandoning module Synthesis (389)
+[2023.06.09-02.16.13:762][274]LogModuleManager: Shutting down and abandoning module SoundFields (387)
+[2023.06.09-02.16.13:762][274]LogModuleManager: Shutting down and abandoning module SignificanceManager (385)
+[2023.06.09-02.16.13:762][274]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (383)
+[2023.06.09-02.16.13:762][274]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (381)
+[2023.06.09-02.16.13:762][274]LogModuleManager: Shutting down and abandoning module MetasoundEditor (379)
+[2023.06.09-02.16.13:764][274]LogModuleManager: Shutting down and abandoning module AudioWidgets (378)
+[2023.06.09-02.16.13:764][274]LogModuleManager: Shutting down and abandoning module AdvancedWidgets (377)
+[2023.06.09-02.16.13:765][274]LogModuleManager: Shutting down and abandoning module MetasoundEngineTest (373)
+[2023.06.09-02.16.13:765][274]LogModuleManager: Shutting down and abandoning module MetasoundEngine (371)
+[2023.06.09-02.16.13:765][274]LogModuleManager: Shutting down and abandoning module WaveTable (370)
+[2023.06.09-02.16.13:765][274]LogModuleManager: Shutting down and abandoning module AudioCodecEngine (368)
+[2023.06.09-02.16.13:765][274]LogModuleManager: Shutting down and abandoning module MetasoundStandardNodes (365)
+[2023.06.09-02.16.13:766][274]LogModuleManager: Shutting down and abandoning module MetasoundFrontend (363)
+[2023.06.09-02.16.13:769][274]LogModuleManager: Shutting down and abandoning module MetasoundGenerator (361)
+[2023.06.09-02.16.13:770][274]LogModuleManager: Shutting down and abandoning module MetasoundGraphCore (359)
+[2023.06.09-02.16.13:770][274]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (357)
+[2023.06.09-02.16.13:770][274]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (355)
+[2023.06.09-02.16.13:770][274]LogModuleManager: Shutting down and abandoning module CableComponent (353)
+[2023.06.09-02.16.13:770][274]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (351)
+[2023.06.09-02.16.13:771][274]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (350)
+[2023.06.09-02.16.13:771][274]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (347)
+[2023.06.09-02.16.13:771][274]LogModuleManager: Shutting down and abandoning module UdpMessaging (345)
+[2023.06.09-02.16.13:871][274]LogModuleManager: Shutting down and abandoning module TcpMessaging (343)
+[2023.06.09-02.16.13:972][274]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (341)
+[2023.06.09-02.16.13:972][274]LogModuleManager: Shutting down and abandoning module Niagara (339)
+[2023.06.09-02.16.13:975][274]LogModuleManager: Shutting down and abandoning module SignalProcessing (338)
+[2023.06.09-02.16.13:975][274]LogModuleManager: Shutting down and abandoning module NiagaraEditor (336)
+[2023.06.09-02.16.13:976][274]LogModuleManager: Shutting down and abandoning module NiagaraCore (333)
+[2023.06.09-02.16.13:976][274]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (331)
+[2023.06.09-02.16.13:976][274]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (329)
+[2023.06.09-02.16.13:976][274]LogModuleManager: Shutting down and abandoning module FacialAnimation (327)
+[2023.06.09-02.16.13:976][274]LogModuleManager: Shutting down and abandoning module DataValidation (325)
+[2023.06.09-02.16.13:976][274]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (323)
+[2023.06.09-02.16.13:977][274]LogModuleManager: Shutting down and abandoning module LevelEditor (322)
+[2023.06.09-02.16.13:985][274]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (321)
+[2023.06.09-02.16.13:988][274]LogModuleManager: Shutting down and abandoning module LevelAssetEditor (319)
+[2023.06.09-02.16.13:988][274]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (317)
+[2023.06.09-02.16.13:989][274]LogModuleManager: Shutting down and abandoning module MainFrame (315)
+[2023.06.09-02.16.13:989][274]LogModuleManager: Shutting down and abandoning module HotReload (314)
+[2023.06.09-02.16.13:989][274]LogModuleManager: Shutting down and abandoning module ContentBrowser (310)
+[2023.06.09-02.16.13:989][274]LogModuleManager: Shutting down and abandoning module ToolMenus (309)
+[2023.06.09-02.16.13:989][274]LogModuleManager: Shutting down and abandoning module ContentBrowserData (307)
+[2023.06.09-02.16.13:989][274]LogModuleManager: Shutting down and abandoning module TreeMap (304)
+[2023.06.09-02.16.13:989][274]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (301)
+[2023.06.09-02.16.13:990][274]LogModuleManager: Shutting down and abandoning module InputBlueprintNodes (299)
+[2023.06.09-02.16.13:990][274]LogModuleManager: Shutting down and abandoning module EnhancedInput (297)
+[2023.06.09-02.16.13:990][274]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (295)
+[2023.06.09-02.16.13:991][274]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (293)
+[2023.06.09-02.16.13:991][274]LogModuleManager: Shutting down and abandoning module AndroidFileServer (291)
+[2023.06.09-02.16.13:991][274]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (289)
+[2023.06.09-02.16.13:991][274]LogModuleManager: Shutting down and abandoning module PacketHandler (287)
+[2023.06.09-02.16.13:991][274]LogModuleManager: Shutting down and abandoning module TimeManagement (285)
+[2023.06.09-02.16.13:991][274]LogModuleManager: Shutting down and abandoning module AnimationDataController (283)
+[2023.06.09-02.16.13:991][274]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (281)
+[2023.06.09-02.16.13:991][274]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (279)
+[2023.06.09-02.16.13:991][274]LogModuleManager: Shutting down and abandoning module MediaAssets (277)
+[2023.06.09-02.16.13:991][274]LogModuleManager: Shutting down and abandoning module Overlay (275)
+[2023.06.09-02.16.13:991][274]LogModuleManager: Shutting down and abandoning module OverlayEditor (274)
+[2023.06.09-02.16.13:991][274]LogModuleManager: Shutting down and abandoning module VREditor (271)
+[2023.06.09-02.16.13:992][274]LogModuleManager: Shutting down and abandoning module StringTableEditor (269)
+[2023.06.09-02.16.13:992][274]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (267)
+[2023.06.09-02.16.13:992][274]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (265)
+[2023.06.09-02.16.13:993][274]LogModuleManager: Shutting down and abandoning module FunctionalTesting (263)
+[2023.06.09-02.16.13:993][274]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (261)
+[2023.06.09-02.16.13:995][274]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (260)
+[2023.06.09-02.16.13:995][274]LogModuleManager: Shutting down and abandoning module UMG (257)
+[2023.06.09-02.16.13:995][274]LogModuleManager: Shutting down and abandoning module UMGEditor (256)
+[2023.06.09-02.16.13:996][274]LogModuleManager: Shutting down and abandoning module EditorStyle (251)
+[2023.06.09-02.16.13:996][274]LogModuleManager: Shutting down and abandoning module SlateReflector (249)
+[2023.06.09-02.16.14:000][274]LogModuleManager: Shutting down and abandoning module Slate (247)
+[2023.06.09-02.16.14:000][274]LogModuleManager: Shutting down and abandoning module SlateCore (245)
+[2023.06.09-02.16.14:002][274]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (243)
+[2023.06.09-02.16.14:002][274]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (241)
+[2023.06.09-02.16.14:002][274]LogModuleManager: Shutting down and abandoning module UnrealEd (239)
+[2023.06.09-02.16.14:002][274]LogModuleManager: Shutting down and abandoning module MRMesh (237)
+[2023.06.09-02.16.14:002][274]LogModuleManager: Shutting down and abandoning module Messaging (235)
+[2023.06.09-02.16.14:002][274]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (233)
+[2023.06.09-02.16.14:002][274]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (231)
+[2023.06.09-02.16.14:002][274]LogModuleManager: Shutting down and abandoning module Networking (229)
+[2023.06.09-02.16.14:002][274]LogModuleManager: Shutting down and abandoning module Core (227)
+[2023.06.09-02.16.14:002][274]LogModuleManager: Shutting down and abandoning module MaterialEditor (225)
+[2023.06.09-02.16.14:004][274]LogModuleManager: Shutting down and abandoning module MovieSceneTools (223)
+[2023.06.09-02.16.14:006][274]LogModuleManager: Shutting down and abandoning module CurveEditor (222)
+[2023.06.09-02.16.14:007][274]LogModuleManager: Shutting down and abandoning module Sequencer (220)
+[2023.06.09-02.16.14:009][274]LogModuleManager: Shutting down and abandoning module KismetCompiler (217)
+[2023.06.09-02.16.14:009][274]LogModuleManager: Shutting down and abandoning module MeshBuilder (215)
+[2023.06.09-02.16.14:010][274]LogModuleManager: Shutting down and abandoning module NaniteBuilder (213)
+[2023.06.09-02.16.14:010][274]LogModuleManager: Shutting down and abandoning module MeshUtilities (211)
+[2023.06.09-02.16.14:011][274]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (210)
+[2023.06.09-02.16.14:011][274]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (209)
+[2023.06.09-02.16.14:011][274]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (208)
+[2023.06.09-02.16.14:011][274]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (206)
+[2023.06.09-02.16.14:012][274]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (204)
+[2023.06.09-02.16.14:014][274]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (202)
+[2023.06.09-02.16.14:017][274]LogModuleManager: Shutting down and abandoning module MaterialBaking (198)
+[2023.06.09-02.16.14:017][274]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (195)
+[2023.06.09-02.16.14:028][274]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (191)
+[2023.06.09-02.16.14:028][274]LogModuleManager: Shutting down and abandoning module DerivedDataCache (189)
+[2023.06.09-02.16.14:047][274]LogModuleManager: Shutting down and abandoning module TargetPlatform (187)
+[2023.06.09-02.16.14:047][274]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (186)
+[2023.06.09-02.16.14:047][274]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (184)
+[2023.06.09-02.16.14:047][274]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (182)
+[2023.06.09-02.16.14:049][274]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (180)
+[2023.06.09-02.16.14:049][274]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (178)
+[2023.06.09-02.16.14:049][274]LogModuleManager: Shutting down and abandoning module AudioFormatBink (176)
+[2023.06.09-02.16.14:049][274]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (173)
+[2023.06.09-02.16.14:049][274]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (171)
+[2023.06.09-02.16.14:049][274]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (169)
+[2023.06.09-02.16.14:049][274]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (167)
+[2023.06.09-02.16.14:049][274]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (165)
+[2023.06.09-02.16.14:049][274]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (163)
+[2023.06.09-02.16.14:050][274]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (161)
+[2023.06.09-02.16.14:050][274]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (159)
+[2023.06.09-02.16.14:050][274]LogModuleManager: Shutting down and abandoning module HoloLensTargetPlatform (157)
+[2023.06.09-02.16.14:050][274]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (155)
+[2023.06.09-02.16.14:051][274]LogModuleManager: Shutting down and abandoning module TextureFormat (153)
+[2023.06.09-02.16.14:051][274]LogModuleManager: Shutting down and abandoning module ImageWrapper (152)
+[2023.06.09-02.16.14:051][274]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (150)
+[2023.06.09-02.16.14:052][274]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (148)
+[2023.06.09-02.16.14:052][274]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (146)
+[2023.06.09-02.16.14:052][274]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (144)
+[2023.06.09-02.16.14:052][274]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (142)
+[2023.06.09-02.16.14:052][274]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (140)
+[2023.06.09-02.16.14:053][274]LogModuleManager: Shutting down and abandoning module TurnkeySupport (137)
+[2023.06.09-02.16.14:053][274]LogModuleManager: Shutting down and abandoning module InputCore (134)
+[2023.06.09-02.16.14:053][274]LogModuleManager: Shutting down and abandoning module Settings (132)
+[2023.06.09-02.16.14:053][274]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (130)
+[2023.06.09-02.16.14:055][274]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (128)
+[2023.06.09-02.16.14:055][274]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (127)
+[2023.06.09-02.16.14:055][274]LogModuleManager: Shutting down and abandoning module Chaos (124)
+[2023.06.09-02.16.14:055][274]LogModuleManager: Shutting down and abandoning module GeometryCore (123)
+[2023.06.09-02.16.14:055][274]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (120)
+[2023.06.09-02.16.14:055][274]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (119)
+[2023.06.09-02.16.14:055][274]LogModuleManager: Shutting down and abandoning module AVEncoder (118)
+[2023.06.09-02.16.14:056][274]LogModuleManager: Shutting down and abandoning module D3D12RHI (114)
+[2023.06.09-02.16.14:056][274]LogModuleManager: Shutting down and abandoning module ChaosCloth (112)
+[2023.06.09-02.16.14:056][274]LogModuleManager: Shutting down and abandoning module PixWinPlugin (110)
+[2023.06.09-02.16.14:056][274]LogModuleManager: Shutting down and abandoning module WmfMedia (108)
+[2023.06.09-02.16.14:061][274]LogModuleManager: Shutting down and abandoning module Media (107)
+[2023.06.09-02.16.14:071][274]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (104)
+[2023.06.09-02.16.14:071][274]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (102)
+[2023.06.09-02.16.14:071][274]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (100)
+[2023.06.09-02.16.14:071][274]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (98)
+[2023.06.09-02.16.14:076][274]LogModuleManager: Shutting down and abandoning module XMPP (93)
+[2023.06.09-02.16.14:076][274]LogModuleManager: Shutting down and abandoning module WebSockets (92)
+[2023.06.09-02.16.14:086][274]LogModuleManager: Shutting down and abandoning module HTTP (89)
+[2023.06.09-02.16.14:087][274]LogHttp: Warning: [FHttpManager::Flush] FlushReason was Shutdown. Unbinding delegates for 1 outstanding Http Requests:
+[2023.06.09-02.16.14:087][274]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7A4959B0-4B9C-9DD0-3575-9FA284F700F1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=3dd68edc458b2a4750b7d5a7adca325a%7Cb865438d88dd4adaa73b3fe858777d12%7C2afb27c1-31a1-4e24-aa11-5dee98b82895&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2023.06.09-02.16.14:120][274]LogModuleManager: Shutting down and abandoning module SSL (88)
+[2023.06.09-02.16.14:124][274]LogModuleManager: Shutting down and abandoning module OnlineServicesCommonEngineUtils (84)
+[2023.06.09-02.16.14:124][274]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (82)
+[2023.06.09-02.16.14:124][274]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (80)
+[2023.06.09-02.16.14:125][274]LogModuleManager: Shutting down and abandoning module VariantManagerContent (78)
+[2023.06.09-02.16.14:125][274]LogModuleManager: Shutting down and abandoning module GLTFExporter (76)
+[2023.06.09-02.16.14:127][274]LogModuleManager: Shutting down and abandoning module DatasmithContent (74)
+[2023.06.09-02.16.14:127][274]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (72)
+[2023.06.09-02.16.14:127][274]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (70)
+[2023.06.09-02.16.14:127][274]LogModuleManager: Shutting down and abandoning module ChunkDownloader (68)
+[2023.06.09-02.16.14:127][274]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2023.06.09-02.16.14:127][274]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (64)
+[2023.06.09-02.16.14:127][274]LogModuleManager: Shutting down and abandoning module NiagaraShader (62)
+[2023.06.09-02.16.14:127][274]LogModuleManager: Shutting down and abandoning module AISupportModule (60)
+[2023.06.09-02.16.14:127][274]LogModuleManager: Shutting down and abandoning module DesktopPlatform (58)
+[2023.06.09-02.16.14:127][274]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (56)
+[2023.06.09-02.16.14:127][274]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (54)
+[2023.06.09-02.16.14:128][274]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (52)
+[2023.06.09-02.16.14:128][274]LogModuleManager: Shutting down and abandoning module PlatformCrypto (50)
+[2023.06.09-02.16.14:128][274]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (48)
+[2023.06.09-02.16.14:130][274]LogModuleManager: Shutting down and abandoning module SourceControl (47)
+[2023.06.09-02.16.14:133][274]LogModuleManager: Shutting down and abandoning module XGEController (44)
+[2023.06.09-02.16.14:135][274]LogXGEController: Cleaning working directory: C:/Users/ellio/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2023.06.09-02.16.14:135][274]LogModuleManager: Shutting down and abandoning module FastBuildController (42)
+[2023.06.09-02.16.14:138][274]LogModuleManager: Shutting down and abandoning module AnimationModifiers (40)
+[2023.06.09-02.16.14:139][274]LogModuleManager: Shutting down and abandoning module AudioEditor (38)
+[2023.06.09-02.16.14:140][274]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2023.06.09-02.16.14:141][274]LogModuleManager: Shutting down and abandoning module Virtualization (34)
+[2023.06.09-02.16.14:141][274]LogModuleManager: Shutting down and abandoning module MessageLog (33)
+[2023.06.09-02.16.14:141][274]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2023.06.09-02.16.14:142][274]LogModuleManager: Shutting down and abandoning module RenderCore (28)
+[2023.06.09-02.16.14:142][274]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2023.06.09-02.16.14:142][274]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2023.06.09-02.16.14:145][274]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (22)
+[2023.06.09-02.16.14:145][274]LogModuleManager: Shutting down and abandoning module Renderer (20)
+[2023.06.09-02.16.14:146][274]LogModuleManager: Shutting down and abandoning module Engine (18)
+[2023.06.09-02.16.14:146][274]LogModuleManager: Shutting down and abandoning module CoreUObject (16)
+[2023.06.09-02.16.14:146][274]LogModuleManager: Shutting down and abandoning module SandboxFile (14)
+[2023.06.09-02.16.14:146][274]LogModuleManager: Shutting down and abandoning module PakFile (12)
+[2023.06.09-02.16.14:146][274]LogModuleManager: Shutting down and abandoning module RSA (11)
+[2023.06.09-02.16.14:146][274]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2023.06.09-02.16.14:147][274]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2023.06.09-02.16.14:147][274]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
+[2023.06.09-02.16.14:147][274]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2023.06.09-02.16.14:643][274]LogD3D12RHI: ~FD3D12DynamicRHI
+[2023.06.09-02.16.14:668][274]LogExit: Exiting.
+[2023.06.09-02.16.14:800][274]Log file closed, 06/08/23 21:16:14
